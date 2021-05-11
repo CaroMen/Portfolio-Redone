@@ -50,4 +50,15 @@ export const Paragraph = styled.div`
 width: 1200px;
 font-size: 17px;
 line-height: 1.8em;
+`;
+
+export const SkillsList = styled.ul`
+display: flex;
+align-items: center;
+list-style: none;
+`
+
+export const Skill = styled.li`
+/* height: 80px; */
+/* border-bottom: 2px solid transparent; */
 `

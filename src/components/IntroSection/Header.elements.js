@@ -23,7 +23,7 @@ padding-bottom: 60px;
 `
 export const TopLine = styled.div`
 color: #2E3630;
-font-size: 18px;
+font-size: 22px;
 line-height: 16px;
 letter-spacing: 1.4px;
 margin-bottom: 16px;
@@ -58,7 +58,7 @@ box-shadow:
 `
 
 export const SocialIconLink = styled.a`
-color: #101522;
+color: #808080;
 font-size: 24px;
 `;
 

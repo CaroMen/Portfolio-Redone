@@ -16,7 +16,7 @@ const Header = ({ headerImg, top, headline }) => {
                             <SocialStarter>
                                 ______________________
                             </SocialStarter>
-                            <SocialIconLink href={"https://www.instagram.com/caro.codes/"} target="_blank" aria-label="Instagram">
+                            <SocialIconLink href={"https://www.instagram.com/notcxro/"} target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
                             <SocialIconLink href={"https://www.linkedin.com/in/caroline-mendez-41a181134/"} target="_blank" aria-label="LinkedIn">

@@ -59,6 +59,16 @@ list-style: none;
 `
 
 export const Skill = styled.li`
-/* height: 80px; */
-/* border-bottom: 2px solid transparent; */
+font-size: 17px;
+padding: 8px;
+background-color: #d3d3d3;
+margin-right: 10px;
+border-radius: 10px;
+box-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.034),
+    0 6px 5px rgba(0, 0, 0, 0.048);
+    /* 0 12px 10px rgba(0, 0, 0, 0.06); */
+    /* 0 22px 17px rgba(0, 0, 0, 0.052); */
+margin-bottom: 50px;
+margin-top: -15px;
 `

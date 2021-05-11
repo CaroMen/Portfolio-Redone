@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from '../../globalStyles';
 import { AboutMeRow, AboutMeCol, TextWrapperInfo, HeadLine, Paragraph, SkillsList, Skill } from './AboutMe.elements';
 
-const AboutMe = ({ headline, pOne, skillOne, skillTwo, skillThree }) => {
+const AboutMe = ({ headline, pOne, skillOne, skillTwo, skillThree, skillFour, skillFive, skillSix, skillSeven }) => {
     return (
         <>
             <Container>
@@ -16,6 +16,10 @@ const AboutMe = ({ headline, pOne, skillOne, skillTwo, skillThree }) => {
                             <Skill>{skillOne}</Skill>
                             <Skill>{skillTwo}</Skill>
                             <Skill>{skillThree}</Skill>
+                            <Skill>{skillFour}</Skill>
+                            <Skill>{skillFive}</Skill>
+                            <Skill>{skillSix}</Skill>
+                            <Skill>{skillSeven}</Skill>
                         </SkillsList>
                     </AboutMeCol>
                 </AboutMeRow>

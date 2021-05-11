@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { IconContext } from 'react-icons/lib';
 import { Nav, NavbarContainer, Logo, NavIcon, NavMenu, NavItem, NavLinks } from './Navbar.elements';
 
 const Navbar = () => {

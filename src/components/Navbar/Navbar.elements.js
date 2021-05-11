@@ -22,7 +22,7 @@ height: 80px
 export const Logo = styled(Link)`
 text-decoration: none;
 cursor: pointer;
-font-size: 1.2rem;
+font-size: 2rem;
 color: #101522;
 display: flex;
 justify-self: flex-start;
@@ -30,4 +30,17 @@ align-items: center;
 `;
 
 export const NavIcon = styled.div`
+`;
+
+export const NavMenu = styled.ul`
+display: flex;
+align-items: center;
+list-style: none;
+text-align: center;
+`;
+
+export const NavItem = styled.li`
+`;
+
+export const NavLinks = styled(Link)`
 `;

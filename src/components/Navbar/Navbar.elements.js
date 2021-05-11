@@ -40,6 +40,19 @@ display: flex;
 align-items: center;
 list-style: none;
 text-align: center;
+
+@media screen and (max-width: 960px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: ${({ click }) => (click ? 0 : '-100%')};
+    opacity: 1;
+    transition: all 0.5s ease;
+    background: #fff;
+}
 `;
 
 export const NavItem = styled.li`
@@ -48,6 +61,14 @@ border-bottom: 2px solid transparent;
 
 &:hover {
     border-bottom: 2px solid #CF9FFF;
+}
+
+@media screen and (max-width: 960px) {
+    width: 100%;
+
+    &:hover {
+        border: none;
+    }
 }
 `;
 
@@ -58,4 +79,30 @@ align-items: center;
 text-decoration: none;
 padding: 0.5rem 1rem;
 height: 100%;
+
+@media screen and (max-width: 960px) {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+
+    &:hover {
+        color: #7B9B82;
+        transition: all 0.3s ease;
+    }
+}
+`;
+
+export const MobileIcon = styled.div`
+display: none;
+
+@media screen and (max-width: 960px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
 `;

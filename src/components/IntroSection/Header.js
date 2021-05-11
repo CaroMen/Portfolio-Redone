@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
 import HeaderImg from '../../images/caro.jpg';
-import { HeaderRow, HeaderColumn, TextWrapper, TopLine, Heading, ImgWrapper, Img } from './Header.elements';
+import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { HeaderRow, HeaderColumn, TextWrapper, TopLine, Heading, ImgWrapper, Img, SocialIconLink, SocialIcons, SocialStarter } from './Header.elements';
 
 const Header = ({ headerImg, top, headline }) => {
     return (
@@ -11,6 +12,20 @@ const Header = ({ headerImg, top, headline }) => {
                     <TextWrapper>
                         <TopLine>{top}</TopLine>
                         <Heading>{headline}</Heading>
+                        <SocialIcons>
+                            <SocialStarter>
+                                ______________________
+                            </SocialStarter>
+                            <SocialIconLink href={"https://www.instagram.com/caro.codes/"} target="_blank" aria-label="Instagram">
+                                <FaInstagram />
+                            </SocialIconLink>
+                            <SocialIconLink href={"https://www.linkedin.com/in/caroline-mendez-41a181134/"} target="_blank" aria-label="LinkedIn">
+                                <FaLinkedin />
+                            </SocialIconLink>
+                            <SocialIconLink href={"https://github.com/CaroMen"} target="_blank" aria-label="GitHub">
+                                <FaGithub />
+                            </SocialIconLink>
+                        </SocialIcons>
                     </TextWrapper>
                 </HeaderColumn>
                 <HeaderColumn>

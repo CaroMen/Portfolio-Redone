@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderRow = styled.div`
 display: flex;
-margin: 0 -15px -15px -15px;
+margin: 50px -15px -15px -15px;
 flex-wrap: wrap;
 align-items: center;
 `
@@ -22,7 +22,7 @@ padding-top: 0px;
 padding-bottom: 60px;
 `
 export const TopLine = styled.div`
-color: #4b59f7;
+color: #2E3630;
 font-size: 18px;
 line-height: 16px;
 letter-spacing: 1.4px;
@@ -49,4 +49,32 @@ max-width: 100%;
 vertical-align: middle;
 display: inline-block;
 max-height: 500px;
+border-radius: 10px;
+box-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.034),
+    0 6px 5px rgba(0, 0, 0, 0.048),
+    0 12px 10px rgba(0, 0, 0, 0.06),
+    0 22px 17px rgba(0, 0, 0, 0.052);
+`
+
+export const SocialIconLink = styled.a`
+color: #101522;
+font-size: 24px;
+`;
+
+export const SocialIcons = styled.div`
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 400px;
+`;
+
+export const SocialStarter = styled.div`
+display: flex;
+/* justify-self: flex-start; */
+font-size: 20px;
+margin-top: -20px;
+padding-right: 20px;
+color: #808080;
+font-weight: bolder;
 `

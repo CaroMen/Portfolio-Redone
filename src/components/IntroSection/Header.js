@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
-import { HeaderRow, HeaderColumn, TextWrapper, TopLine, Heading } from './Header.elements';
+import HeaderImg from '../../images/caro.jpg';
+import { HeaderRow, HeaderColumn, TextWrapper, TopLine, Heading, ImgWrapper, Img } from './Header.elements';
 
 const Header = ({ headerImg, top, headline }) => {
     return (
@@ -11,6 +12,11 @@ const Header = ({ headerImg, top, headline }) => {
                         <TopLine>{top}</TopLine>
                         <Heading>{headline}</Heading>
                     </TextWrapper>
+                </HeaderColumn>
+                <HeaderColumn>
+                    <ImgWrapper>
+                        <Img src={HeaderImg}></Img>
+                    </ImgWrapper>
                 </HeaderColumn>
             </HeaderRow>
         </Container>

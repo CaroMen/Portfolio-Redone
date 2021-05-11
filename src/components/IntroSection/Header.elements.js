@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
-export const InfoRow = styled.div`
+export const HeaderRow = styled.div`
 display: flex;
 margin: 0 -15px -15px -15px;
 flex-wrap: wrap;
 align-items: center;
 `
 
-export const InfoColumn = styled.div`
+export const HeaderColumn = styled.div`
 margin-bottom: -205px;
 padding-right: 15px;
 padding-left: 15px;
@@ -35,3 +35,18 @@ font-size: 48px;
 line-height: 1.1;
 color: #1c2237;
 `;
+
+export const ImgWrapper = styled.div`
+max-width: 555px;
+display: flex;
+justify-content: flex-end;
+`;
+
+export const Img = styled.img`
+padding-right: 0;
+border: 0;
+max-width: 100%;
+vertical-align: middle;
+display: inline-block;
+max-height: 500px;
+`

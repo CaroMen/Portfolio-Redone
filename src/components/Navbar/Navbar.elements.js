@@ -25,7 +25,7 @@ cursor: pointer;
 font-size: 2rem;
 color: #101522;
 display: flex;
-justify-self: flex-start;
+justify-content: flex-start;
 align-items: center;
 `;
 
@@ -40,7 +40,19 @@ text-align: center;
 `;
 
 export const NavItem = styled.li`
+height: 80px;
+border-bottom: 2px solid transparent;
+
+&:hover {
+    border-bottom: 2px solid #CF9FFF;
+}
 `;
 
 export const NavLinks = styled(Link)`
+color: #101522;
+display: flex;
+align-items: center;
+text-decoration: none;
+padding: 0.5rem 1rem;
+height: 100%;
 `;

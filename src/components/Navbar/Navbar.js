@@ -5,7 +5,7 @@ import { Nav, NavbarContainer, Logo, NavIcon, NavMenu, NavItem, NavLinks } from 
 const Navbar = () => {
     return (
         <>
-            <Nav className="navbar-outer">
+            <Nav>
                 <NavbarContainer>
                     <Logo>
                         <NavIcon />

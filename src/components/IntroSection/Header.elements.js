@@ -75,6 +75,6 @@ display: flex;
 font-size: 20px;
 margin-top: -20px;
 padding-right: 20px;
-color: #808080;
+color: #CF9FFF;
 font-weight: bolder;
 `

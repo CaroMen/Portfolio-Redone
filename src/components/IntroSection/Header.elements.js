@@ -71,7 +71,6 @@ width: 400px;
 
 export const SocialStarter = styled.div`
 display: flex;
-/* justify-self: flex-start; */
 font-size: 20px;
 margin-top: -20px;
 padding-right: 20px;

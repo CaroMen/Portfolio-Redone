@@ -87,7 +87,7 @@ height: 100%;
     display: table;
 
     &:hover {
-        color: #7B9B82;
+        color: #CF9FFF;
         transition: all 0.3s ease;
     }
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
-import { AboutMeRow, AboutMeCol, TextWrapperInfo, HeadLine } from './AboutMe.elements';
+import { AboutMeRow, AboutMeCol, TextWrapperInfo, HeadLine, Paragraph } from './AboutMe.elements';
 
-const AboutMe = ({ headline }) => {
+const AboutMe = ({ headline, pOne }) => {
     return (
         <>
             <Container>
@@ -10,6 +10,7 @@ const AboutMe = ({ headline }) => {
                     <AboutMeCol>
                         <TextWrapperInfo>
                             <HeadLine>{headline}</HeadLine>
+                            <Paragraph>{pOne}</Paragraph>
                         </TextWrapperInfo>
                     </AboutMeCol>
                 </AboutMeRow>

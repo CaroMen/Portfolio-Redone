@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AboutMeRow = styled.div`
 display: flex;
-margin: 50px -15px -15px -15px;
+margin: 300px -15px -15px -15px;
 flex-wrap: wrap;
 align-items: center;
 
@@ -38,9 +38,16 @@ padding-bottom: 60px;
 `
 
 export const HeadLine = styled.div`
-color: #2E3630;
-font-size: 22px;
+color: #808080;
+font-family: 'Montserrat', sans-serif;
+font-size: 50px;
 line-height: 16px;
 letter-spacing: 1.4px;
 margin-bottom: 16px;
 `;
+
+export const Paragraph = styled.div`
+width: 1200px;
+font-size: 17px;
+line-height: 1.8em;
+`

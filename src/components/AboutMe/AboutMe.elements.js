@@ -61,9 +61,9 @@ list-style: none;
 export const Skill = styled.li`
 font-size: 17px;
 padding: 8px;
-background-color: #d3d3d3;
+background-color: #f1f1f1;
 margin-right: 10px;
-border-radius: 10px;
+border-radius: 5px;
 box-shadow:
     0 2px 2px rgba(0, 0, 0, 0.034),
     0 6px 5px rgba(0, 0, 0, 0.048);

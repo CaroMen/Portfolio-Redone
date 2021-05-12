@@ -1,12 +1,16 @@
 export const aboutMeInfo = {
     headline: 'About Me',
-    pOne: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin venenatis lectus sed erat porta tempus. Aenean faucibus sed metus id viverra. Nam faucibus sapien vel tortor efficitur mollis. Etiam sagittis orci sed sagittis vulputate. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In hac habitasse platea dictumst. Donec eu accumsan eros, eget dapibus erat. Quisque faucibus ante sed ex vehicula, sit amet sodales orci fermentum. Vivamus ultrices quam arcu, at posuere urna varius at. Ut libero lacus, faucibus sed ante vel, scelerisque efficitur massa. Etiam ut commodo arcu, a malesuada tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ac nisl vulputate, vestibulum erat vitae, finibus eros. In dictum cursus euismod. Vestibulum tempor mi vitae ligula sollicitudin, in tincidunt elit pretium. Sed viverra eros accumsan auctor sagittis. Phasellus ultricies lacus eu porta luctus. In sagittis eget dolor vitae vestibulum. Proin ac eros euismod, mollis purus et, tempus turpis.",
+    pOne: "I'm a mostly self taught developer and made the decision to focus on software development in 2019. During my last two years at Baylor, I spent a lot of time working with Python and found out I enjoy working on technically complex and challenging problems. Since 2019, I've spent my free time studying Python, JavaScript, working with React and creating full-stack applications. I decided to pursure further education in programing by attending App Academy where I spent 6 months in an intensive 6 month program focusing on full-stack applications. Programming has become an outlet for me, so I'm passionate about teaching others about what amazing things programming can do for you.",
     skillOne: 'Python',
     skillTwo: 'JavaScript',
     skillThree: 'HTML',
     skillFour: 'CSS',
     skillFive: 'PostgreSQL',
     skillSix: 'Django',
-    skillSeven: 'React'
+    skillSeven: 'React',
+    skillEight: 'Git',
+    skillNine: 'SQL',
+    skillTen: 'Node',
+    skillEleven: 'Flask'
     // alt: 'Image',
 };

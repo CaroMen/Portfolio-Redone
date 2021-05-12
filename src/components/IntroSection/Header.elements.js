@@ -46,11 +46,19 @@ margin-bottom: 16px;
 `;
 
 export const Heading = styled.h1`
-margin-bottom: 24px;
+/* margin-bottom: 24px; */
 font-size: 48px;
 line-height: 1.1;
 color: #1c2237;
 `;
+
+export const SubText = styled.div`
+margin-bottom: 20px;
+font-size: 30px;
+line-height: 1.1;
+color: #2E3630;
+`;
+
 
 export const ImgWrapper = styled.div`
 max-width: 555px;

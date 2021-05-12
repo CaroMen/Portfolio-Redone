@@ -12,6 +12,12 @@ export const aboutMeInfo = {
     skillNine: 'SQL',
     skillTen: 'Node',
     skillEleven: 'Flask',
+    skill12: 'Algorithms',
+    skill13: 'TDD',
+    skill14: 'Data Structures',
+    skill15: 'Sequelize ORM',
+    skill16: 'SQLAlchemy',
+    skill17: 'Firebase',
     skillsheader: 'Skills'
     // alt: 'Image',
 };

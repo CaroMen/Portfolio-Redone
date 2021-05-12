@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
-import { AboutMeRow, AboutMeCol, TextWrapperInfo, HeadLine, Paragraph, SkillsList, Skill } from './AboutMe.elements';
+import { AboutMeRow, AboutMeCol, TextWrapperInfo, HeadLine, Paragraph, SkillsList, Skill, SkillsHeader } from './AboutMe.elements';
 
-const AboutMe = ({ headline, pOne, skillOne, skillTwo, skillThree, skillFour, skillFive, skillSix, skillSeven }) => {
+const AboutMe = ({ headline, pOne, skillOne, skillTwo, skillThree, skillFour, skillFive, skillSix, skillSeven, skillEight, skillNine, skillTen, skillEleven, skillsheader }) => {
     return (
         <>
             <Container>
@@ -12,6 +12,9 @@ const AboutMe = ({ headline, pOne, skillOne, skillTwo, skillThree, skillFour, sk
                             <HeadLine>{headline}</HeadLine>
                             <Paragraph>{pOne}</Paragraph>
                         </TextWrapperInfo>
+                        <SkillsHeader>
+                            {skillsheader}
+                        </SkillsHeader>
                         <SkillsList>
                             <Skill>{skillOne}</Skill>
                             <Skill>{skillTwo}</Skill>
@@ -20,6 +23,10 @@ const AboutMe = ({ headline, pOne, skillOne, skillTwo, skillThree, skillFour, sk
                             <Skill>{skillFive}</Skill>
                             <Skill>{skillSix}</Skill>
                             <Skill>{skillSeven}</Skill>
+                            <Skill>{skillEight}</Skill>
+                            <Skill>{skillNine}</Skill>
+                            <Skill>{skillTen}</Skill>
+                            <Skill>{skillEleven}</Skill>
                         </SkillsList>
                     </AboutMeCol>
                 </AboutMeRow>

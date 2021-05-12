@@ -47,9 +47,11 @@ margin-bottom: 16px;
 `;
 
 export const Paragraph = styled.div`
+margin-top: 30px;
 width: 1200px;
-font-size: 17px;
+font-size: 18px;
 line-height: 1.8em;
+font-family: 'Open Sans', sans-serif;
 `;
 
 export const SkillsList = styled.ul`
@@ -70,5 +72,13 @@ box-shadow:
     /* 0 12px 10px rgba(0, 0, 0, 0.06); */
     /* 0 22px 17px rgba(0, 0, 0, 0.052); */
 margin-bottom: 50px;
-margin-top: -15px;
+margin-top: 15px;
+font-family: 'Open Sans', sans-serif;
 `
+
+export const SkillsHeader = styled.div`
+/* margin-bottom: 20px; */
+font-size: 40px;
+/* line-height: 1.1; */
+color: #2E3630;
+`;

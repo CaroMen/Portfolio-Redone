@@ -11,6 +11,7 @@ export const aboutMeInfo = {
     skillEight: 'Git',
     skillNine: 'SQL',
     skillTen: 'Node',
-    skillEleven: 'Flask'
+    skillEleven: 'Flask',
+    skillsheader: 'Skills'
     // alt: 'Image',
 };

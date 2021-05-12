@@ -7,7 +7,7 @@ import { HeaderRow, HeaderColumn, TextWrapper, TopLine, Heading, ImgWrapper, Img
 const Header = ({ headerImg, top, headline, subtext }) => {
     return (
         <Container>
-            <HeaderRow img={headerImg}>
+            <HeaderRow>
                 <HeaderColumn>
                     <TextWrapper>
                         <TopLine>{top}</TopLine>

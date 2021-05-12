@@ -44,15 +44,15 @@ padding-bottom: 60px;
 `
 
 export const HeadLine = styled.div`
-color: #808080;
 font-family: 'Montserrat', sans-serif;
+font-weight: 800;
 font-size: 50px;
 line-height: 16px;
 letter-spacing: 1.4px;
 margin-bottom: 16px;
 
 @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 30px;
 
     /* flex-basis: 100%; */
     /* display: flex; */
@@ -65,43 +65,43 @@ margin-top: 30px;
 width: 1200px;
 font-size: 18px;
 line-height: 1.8em;
-font-family: 'Open Sans', sans-serif;
+/* color: black; */
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+column-count: 2;
 
 @media screen and (max-width: 768px) {
     max-width: 400px;
     margin: 0 auto;
-    /* width: 100% */
+    column-count: 1;
 }
 `;
 
-export const SkillsList = styled.ul`
+export const SkillsList = styled.div`
 display: flex;
-align-items: center;
 list-style: none;
+flex-wrap: wrap;
+margin-bottom: 50px;
+flex-direction: column;
+/* justify-content: flex-end; */
 
 @media screen and (max-width: 768px) {
     max-width: 400px;
-    /* display: flex;
-    flex-direction: column; */
     flex-wrap: wrap;
     padding-bottom: -50px;
-    /* padding-right: -10px; */
     margin-bottom: 30px;
 }
 `
 
 export const Skill = styled.li`
 font-size: 17px;
-padding: 8px;
+padding: 8px 15px 8px 15px;
 background-color: #f1f1f1;
 margin-right: 10px;
 border-radius: 5px;
 box-shadow:
     0 2px 2px rgba(0, 0, 0, 0.034),
     0 6px 5px rgba(0, 0, 0, 0.048);
-    /* 0 12px 10px rgba(0, 0, 0, 0.06); */
-    /* 0 22px 17px rgba(0, 0, 0, 0.052); */
-margin-bottom: 50px;
 margin-top: 15px;
 font-family: 'Open Sans', sans-serif;
 
@@ -111,8 +111,60 @@ font-family: 'Open Sans', sans-serif;
 `
 
 export const SkillsHeader = styled.div`
-/* margin-bottom: 20px; */
 font-size: 40px;
-/* line-height: 1.1; */
 color: #2E3630;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+
+@media screen and (max-width: 768px) {
+    font-size: 30px;
+}
+`;
+
+export const ImgDiv = styled.div`
+margin-bottom: -205px;
+padding-right: 15px;
+padding-left: 15px;
+/* flex: 2; */
+/* max-width: 50%; */
+/* flex-basis: 50%; */
+
+@media screen and (max-width: 768px) {
+    max-width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}
+`;
+
+export const Wrapper = styled.div`
+max-width: 555px;
+/* display: flex; */
+/* justify-content: flex-end; */
+`
+
+export const ImgAboutMe = styled.img`
+padding-right: 0;
+border: 0;
+max-width: 100%;
+vertical-align: middle;
+display: inline-block;
+max-height: 600px;
+border-radius: 5px;
+box-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.034),
+    0 6px 5px rgba(0, 0, 0, 0.048),
+    0 12px 10px rgba(0, 0, 0, 0.06),
+    0 22px 17px rgba(0, 0, 0, 0.052);
+
+@media screen and (max-width: 768px) {
+    margin-top: 105px;
+    margin-bottom: 50px;
+}
+`
+export const SkillsDiv = styled.div`
+display: flex;
+flex-direction: row;
+margin-bottom: 50px;
+/* justify-content: space-between; */
 `;

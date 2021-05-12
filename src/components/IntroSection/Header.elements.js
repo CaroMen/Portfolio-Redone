@@ -43,6 +43,8 @@ font-size: 22px;
 line-height: 16px;
 letter-spacing: 1.4px;
 margin-bottom: 16px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 100;
 `;
 
 export const Heading = styled.h1`
@@ -50,6 +52,8 @@ export const Heading = styled.h1`
 font-size: 48px;
 line-height: 1.1;
 color: #1c2237;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
 `;
 
 export const SubText = styled.div`
@@ -57,6 +61,8 @@ margin-bottom: 20px;
 font-size: 30px;
 line-height: 1.1;
 color: #2E3630;
+font-family: 'Montserrat', sans-serif;
+font-weight: 100;
 `;
 
 
@@ -72,8 +78,8 @@ border: 0;
 max-width: 100%;
 vertical-align: middle;
 display: inline-block;
-max-height: 500px;
-border-radius: 10px;
+max-height: 600px;
+border-radius: 5px;
 box-shadow:
     0 2px 2px rgba(0, 0, 0, 0.034),
     0 6px 5px rgba(0, 0, 0, 0.048),

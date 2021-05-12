@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
-import { AboutMeRow, AboutMeCol, TextWrapperInfo, HeadLine, Paragraph, SkillsList, Skill, SkillsHeader } from './AboutMe.elements';
+import DeskImg from '../../images/desk.jpg';
+import { AboutMeRow, AboutMeCol, TextWrapperInfo, HeadLine, Paragraph, SkillsList, Skill, SkillsHeader, ImgAboutMe, ImgDiv, Wrapper, SkillsDiv } from './AboutMe.elements';
 
 const AboutMe = ({ headline, pOne, skillOne, skillTwo, skillThree, skillFour, skillFive, skillSix, skillSeven, skillEight, skillNine, skillTen, skillEleven, skillsheader }) => {
     return (
@@ -12,22 +13,29 @@ const AboutMe = ({ headline, pOne, skillOne, skillTwo, skillThree, skillFour, sk
                             <HeadLine>{headline}</HeadLine>
                             <Paragraph>{pOne}</Paragraph>
                         </TextWrapperInfo>
-                        <SkillsHeader>
-                            {skillsheader}
-                        </SkillsHeader>
-                        <SkillsList>
-                            <Skill>{skillOne}</Skill>
-                            <Skill>{skillTwo}</Skill>
-                            <Skill>{skillThree}</Skill>
-                            <Skill>{skillFour}</Skill>
-                            <Skill>{skillFive}</Skill>
-                            <Skill>{skillSix}</Skill>
-                            <Skill>{skillSeven}</Skill>
-                            <Skill>{skillEight}</Skill>
-                            <Skill>{skillNine}</Skill>
-                            <Skill>{skillTen}</Skill>
-                            <Skill>{skillEleven}</Skill>
-                        </SkillsList>
+                        <SkillsDiv>
+                            <ImgDiv>
+                                <Wrapper>
+                                    <ImgAboutMe src={DeskImg}></ImgAboutMe>
+                                </Wrapper>
+                            </ImgDiv>
+                            <SkillsHeader>
+                                {skillsheader}
+                            </SkillsHeader>
+                            <SkillsList>
+                                <Skill>{skillOne}</Skill>
+                                <Skill>{skillTwo}</Skill>
+                                <Skill>{skillThree}</Skill>
+                                <Skill>{skillFour}</Skill>
+                                <Skill>{skillFive}</Skill>
+                                <Skill>{skillSix}</Skill>
+                                <Skill>{skillSeven}</Skill>
+                                <Skill>{skillEight}</Skill>
+                                <Skill>{skillNine}</Skill>
+                                <Skill>{skillTen}</Skill>
+                                <Skill>{skillEleven}</Skill>
+                            </SkillsList>
+                        </SkillsDiv>
                     </AboutMeCol>
                 </AboutMeRow>
             </Container>

@@ -20,9 +20,10 @@ max-width: 50%;
 flex-basis: 50%;
 
 @media screen and (max-width: 768px) {
-    max-width: 100%;
-    flex-basis: 100%;
+    /* width: 50%; */
+    /* flex-basis: 40%; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 `
@@ -32,8 +33,13 @@ padding-top: 0px;
 padding-bottom: 60px;
 
 @media screen and (max-width: 768px) {
-    padding-bottom: 125px;
+    /* padding-bottom: 125px; */
     /* padding-top: 100px; */
+    /* display: flex; */
+    /* max-width: 500px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
 }
 `
 
@@ -44,6 +50,14 @@ font-size: 50px;
 line-height: 16px;
 letter-spacing: 1.4px;
 margin-bottom: 16px;
+
+@media screen and (max-width: 768px) {
+    font-size: 40px;
+
+    /* flex-basis: 100%; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
 `;
 
 export const Paragraph = styled.div`
@@ -52,12 +66,28 @@ width: 1200px;
 font-size: 18px;
 line-height: 1.8em;
 font-family: 'Open Sans', sans-serif;
+
+@media screen and (max-width: 768px) {
+    max-width: 400px;
+    margin: 0 auto;
+    /* width: 100% */
+}
 `;
 
 export const SkillsList = styled.ul`
 display: flex;
 align-items: center;
 list-style: none;
+
+@media screen and (max-width: 768px) {
+    max-width: 400px;
+    /* display: flex;
+    flex-direction: column; */
+    flex-wrap: wrap;
+    padding-bottom: -50px;
+    /* padding-right: -10px; */
+    margin-bottom: 30px;
+}
 `
 
 export const Skill = styled.li`
@@ -74,6 +104,10 @@ box-shadow:
 margin-bottom: 50px;
 margin-top: 15px;
 font-family: 'Open Sans', sans-serif;
+
+@media screen and (max-width: 768px) {
+    margin-bottom: -2px;
+}
 `
 
 export const SkillsHeader = styled.div`

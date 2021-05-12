@@ -7,7 +7,6 @@ flex-wrap: wrap;
 align-items: center;
 
 @media screen and (max-width: 768px) {
-    /* margin-top: -100px; */
 }
 `
 
@@ -20,8 +19,6 @@ max-width: 50%;
 flex-basis: 50%;
 
 @media screen and (max-width: 768px) {
-    /* width: 50%; */
-    /* flex-basis: 40%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,13 +30,6 @@ padding-top: 0px;
 padding-bottom: 60px;
 
 @media screen and (max-width: 768px) {
-    /* padding-bottom: 125px; */
-    /* padding-top: 100px; */
-    /* display: flex; */
-    /* max-width: 500px; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
 }
 `
 
@@ -53,10 +43,6 @@ margin-bottom: 16px;
 
 @media screen and (max-width: 768px) {
     font-size: 30px;
-
-    /* flex-basis: 100%; */
-    /* display: flex; */
-    /* justify-content: center; */
 }
 `;
 
@@ -79,15 +65,17 @@ column-count: 2;
 
 export const SkillsList = styled.div`
 display: flex;
-list-style: none;
-flex-wrap: wrap;
-margin-bottom: 50px;
 flex-direction: column;
-/* justify-content: flex-end; */
+list-style: none;
+margin-bottom: 50px;
+padding-left: 100px;
+max-width: 300px;
+/* max-height: 20%; */
 
 @media screen and (max-width: 768px) {
-    max-width: 400px;
+    max-width: 300px;
     flex-wrap: wrap;
+    margin-left: -90px;
     padding-bottom: -50px;
     margin-bottom: 30px;
 }
@@ -105,6 +93,10 @@ box-shadow:
 margin-top: 15px;
 font-family: 'Open Sans', sans-serif;
 
+&:hover {
+    background-color: #e9e9e9;
+}
+
 @media screen and (max-width: 768px) {
     margin-bottom: -2px;
 }
@@ -121,13 +113,17 @@ font-weight: 800;
 }
 `;
 
+export const SkillsWrapper = styled.div`
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+width: 400px;
+`;
+
 export const ImgDiv = styled.div`
 margin-bottom: -205px;
 padding-right: 15px;
 padding-left: 15px;
-/* flex: 2; */
-/* max-width: 50%; */
-/* flex-basis: 50%; */
 
 @media screen and (max-width: 768px) {
     max-width: 100%;
@@ -139,8 +135,6 @@ padding-left: 15px;
 
 export const Wrapper = styled.div`
 max-width: 555px;
-/* display: flex; */
-/* justify-content: flex-end; */
 `
 
 export const ImgAboutMe = styled.img`
@@ -158,13 +152,19 @@ box-shadow:
     0 22px 17px rgba(0, 0, 0, 0.052);
 
 @media screen and (max-width: 768px) {
-    margin-top: 105px;
+    /* margin-top: 105px; */
     margin-bottom: 50px;
+    max-width: 80%;
 }
 `
 export const SkillsDiv = styled.div`
 display: flex;
-flex-direction: row;
-margin-bottom: 50px;
-/* justify-content: space-between; */
+width: 540px;
+padding-top: 0px;
+padding-bottom: 60px;
+
+@media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+}
 `;

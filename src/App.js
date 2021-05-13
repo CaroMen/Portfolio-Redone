@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
-// import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar.js';
 
 import Header from './pagesdata/header/Header.js';
@@ -19,7 +19,7 @@ function App() {
           <AboutMeInfo />
         </Route>
       </Switch>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
       <GlobalStyle></GlobalStyle>
     </Router>
   );

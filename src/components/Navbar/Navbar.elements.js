@@ -30,6 +30,7 @@ text-decoration: none;
 font-size: 2rem;
 display: flex;
 align-items: center;
+font-family: 'Montserrat', sans-serif;
 `;
 
 export const NavIcon = styled.div`
@@ -79,6 +80,7 @@ align-items: center;
 text-decoration: none;
 padding: 0.5rem 1rem;
 height: 100%;
+font-family: 'Montserrat', sans-serif;
 
 @media screen and (max-width: 960px) {
     text-align: center;

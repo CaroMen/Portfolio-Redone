@@ -13,8 +13,11 @@ margin-bottom: -205px;
 padding-right: 15px;
 padding-left: 15px;
 flex: 1;
-max-width: 50%;
+/* max-width: 50%; */
 flex-basis: 50%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 
 /* @media screen and (max-width: 768px) {
     max-width: 100%;
@@ -35,6 +38,7 @@ align-items: center;
 background-color: #F5F5F5;
 padding-left: 10px;
 padding-right: 10px;
+margin-right: 30px;
 padding-bottom: 80px;
 border-radius: 5px;
 box-shadow:

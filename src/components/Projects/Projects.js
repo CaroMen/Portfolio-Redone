@@ -13,6 +13,10 @@ const AboutMe = ({ title }) => {
                             <ImgContainer src={WanderHunt} />
                             <ProjectTitle>{title}</ProjectTitle>
                         </ProjectsDiv>
+                        <ProjectsDiv>
+                            <ImgContainer src={WanderHunt} />
+                            <ProjectTitle>{title}</ProjectTitle>
+                        </ProjectsDiv>
                     </ProjectsCol>
                 </ProjectsRow>
             </Container>

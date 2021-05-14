@@ -28,30 +28,45 @@ justify-content: space-between;
 `
 
 export const ProjectTitle = styled.div`
-font-size: 20px;
+font-size: 35px;
 font-family: 'Montserrat', sans-serif;
 `
 export const ProjectsDiv = styled.div`
 display: flex;
 flex-direction: column;
-align-items: center;
-background-color: #F5F5F5;
-padding-left: 10px;
-padding-right: 10px;
-margin-right: 30px;
+align-items: left;
+/* background-color: #F8F8FF; */
+/* padding-left: 10px; */
+/* padding-right: 10px; */
+/* margin-right: 40px; */
 padding-bottom: 80px;
 border-radius: 5px;
-box-shadow:
+/* box-shadow:
     0 2px 2px rgba(0, 0, 0, 0.034),
-    0 6px 5px rgba(0, 0, 0, 0.048),
-    0 12px 10px rgba(0, 0, 0, 0.06),
-    0 22px 17px rgba(0, 0, 0, 0.052);
+    0 6px 5px rgba(0, 0, 0, 0.048); */
+    /* 0 12px 10px rgba(0, 0, 0, 0.06); */
+    /* 0 22px 17px rgba(0, 0, 0, 0.052); */
 `;
 
-export const ImgContainer = styled.img`
-width: 100%;
-height: 100%;
-display: flex;
+export const ImgContainerOne = styled.img`
+width: 600px;
+height: 450px;
 margin-bottom: -20px;
-/* border-radius: 10px; */
+margin-left: -35px;
+`;
+
+export const ImgContainerTwo = styled.img`
+width: 600px;
+height: 458px;
+margin-top: -3px;
+margin-bottom: -20px;
+margin-left: -35px;
+`;
+
+export const ProjectDesc = styled.div`
+font: 12px;
+line-height: 1.2rem;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+max-width: 90%;
 `

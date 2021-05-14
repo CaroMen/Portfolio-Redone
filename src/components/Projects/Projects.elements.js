@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const ProjectsRow = styled.div`
 display: flex;
-margin: 50px -15px -15px -15px;
+margin: 250px -15px 0 -15px;
+padding-bottom: 50px;
 flex-wrap: wrap;
 align-items: center;
 `;
@@ -24,14 +25,29 @@ flex-basis: 50%;
 `
 
 export const ProjectTitle = styled.div`
-
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
 `
 export const ProjectsDiv = styled.div`
 display: flex;
 flex-direction: column;
+align-items: center;
+background-color: #F5F5F5;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 80px;
+border-radius: 5px;
+box-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.034),
+    0 6px 5px rgba(0, 0, 0, 0.048),
+    0 12px 10px rgba(0, 0, 0, 0.06),
+    0 22px 17px rgba(0, 0, 0, 0.052);
 `;
 
 export const ImgContainer = styled.img`
-width: 50%;
-height: 50%;
+width: 100%;
+height: 100%;
+display: flex;
+margin-bottom: -20px;
+/* border-radius: 10px; */
 `

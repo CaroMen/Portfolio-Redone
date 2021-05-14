@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
 import { ProjectsRow, ProjectsCol, ProjectTitle, ProjectsDiv, ImgContainer } from './Projects.elements';
-import HeaderImg from '../../images/caro.jpg';
+import WanderHunt from '../../images/wanderhunt.png';
 
 const AboutMe = ({ title }) => {
     return (
@@ -10,7 +10,7 @@ const AboutMe = ({ title }) => {
                 <ProjectsRow>
                     <ProjectsCol>
                         <ProjectsDiv>
-                            <ImgContainer src={HeaderImg} />
+                            <ImgContainer src={WanderHunt} />
                             <ProjectTitle>{title}</ProjectTitle>
                         </ProjectsDiv>
                     </ProjectsCol>

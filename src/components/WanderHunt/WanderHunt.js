@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
-import { } from './Projects.elements';
+// import { } from './Projects.elements';
 
-const WanderHunt = () => {
+const WanderHunt = ({ title1 }) => {
     return (
         <>
             <Container>
-
+                {title1}
             </Container>
         </>
     )

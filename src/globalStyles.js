@@ -6,7 +6,23 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    ${'' /* width: 1200px; */}
+    ${'' /* overflow: hidden; */}
+
+
+${'' /* @media screen and (max-width: 768px) {
+    display: flex;
+    width: 90%;
+} */}
+body {
+    overflow-x: hidden;
+
+    @media screen and (max-width: 812px) {
+        overflow-x: hidden;
+    }
+}
 }`;
+
 
 export const Container = styled.div`
 z-index: 1;

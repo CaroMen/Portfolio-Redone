@@ -6,7 +6,7 @@ margin: 50px -15px -15px -15px;
 flex-wrap: wrap;
 align-items: center;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     /* margin-top: -100px; */
 }
 `
@@ -19,7 +19,7 @@ flex: 1;
 max-width: 50%;
 flex-basis: 50%;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     max-width: 100%;
     flex-basis: 100%;
     display: flex;
@@ -32,8 +32,9 @@ max-width: 540px;
 padding-top: 0px;
 padding-bottom: 60px;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     padding-bottom: 125px;
+    max-width: 100%;
     /* padding-top: 100px; */
 }
 `
@@ -86,7 +87,7 @@ box-shadow:
     0 12px 10px rgba(0, 0, 0, 0.06),
     0 22px 17px rgba(0, 0, 0, 0.052);
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     margin-top: 105px;
     margin-bottom: 50px;
 }
@@ -95,6 +96,9 @@ box-shadow:
 export const SocialIconLink = styled.a`
 color: #808080;
 font-size: 24px;
+@media screen and (max-width: 812px) {
+    margin-right: 10px;
+}
 `;
 
 export const SocialIcons = styled.div`
@@ -102,6 +106,10 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 width: 400px;
+
+@media screen and (max-width: 812px) {
+    max-width: 30%;
+}
 `;
 
 export const SocialStarter = styled.div`
@@ -111,4 +119,9 @@ margin-top: -20px;
 padding-right: 20px;
 color: #CF9FFF;
 font-weight: bolder;
+
+@media screen and (max-width: 812px) {
+    /* max-width: 20%; */
+    font-size: 16px;
+}
 `

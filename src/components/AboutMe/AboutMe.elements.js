@@ -18,7 +18,7 @@ flex: 1;
 max-width: 50%;
 flex-basis: 50%;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,8 +29,6 @@ max-width: 540px;
 padding-top: 0px;
 padding-bottom: 60px;
 
-@media screen and (max-width: 768px) {
-}
 `
 
 export const HeadLine = styled.div`
@@ -41,8 +39,8 @@ line-height: 16px;
 letter-spacing: 1.4px;
 margin-bottom: 16px;
 
-@media screen and (max-width: 768px) {
-    font-size: 30px;
+@media screen and (max-width: 812px) {
+    font-size: 20px;
 }
 `;
 
@@ -56,8 +54,8 @@ font-family: 'Lato', sans-serif;
 font-weight: 300;
 column-count: 2;
 
-@media screen and (max-width: 768px) {
-    max-width: 400px;
+@media screen and (max-width: 812px) {
+    max-width: 300px;
     margin: 0 auto;
     column-count: 1;
 }
@@ -72,7 +70,7 @@ padding-left: 100px;
 max-width: 300px;
 /* max-height: 20%; */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     max-width: 300px;
     flex-wrap: wrap;
     margin-left: -90px;
@@ -97,7 +95,7 @@ font-family: 'Open Sans', sans-serif;
     background-color: #e9e9e9;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     margin-bottom: -2px;
 }
 `
@@ -108,7 +106,7 @@ color: #2E3630;
 font-family: 'Montserrat', sans-serif;
 font-weight: 800;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     font-size: 30px;
 }
 `;
@@ -118,6 +116,12 @@ display: flex;
 flex-wrap: wrap;
 flex-direction: row;
 width: 400px;
+
+@media screen and (max-width: 812px) {
+    max-width: 300px;
+    margin: 0 auto -80px;
+    /* column-count: 1; */
+}
 `;
 
 export const ImgDiv = styled.div`
@@ -125,7 +129,7 @@ margin-bottom: -205px;
 padding-right: 15px;
 padding-left: 15px;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     max-width: 100%;
     flex-basis: 100%;
     display: flex;
@@ -151,10 +155,12 @@ box-shadow:
     0 12px 10px rgba(0, 0, 0, 0.06),
     0 22px 17px rgba(0, 0, 0, 0.052);
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     /* margin-top: 105px; */
-    margin-bottom: 50px;
-    max-width: 80%;
+    /* margin-bottom: 50px; */
+    /* max-height: 500px; */
+    /* width: 500px; */
+    /* display: hidden; */
 }
 `
 export const SkillsDiv = styled.div`
@@ -163,8 +169,10 @@ width: 540px;
 padding-top: 0px;
 padding-bottom: 60px;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    /* overflow-x: hidden; */
 }
 `;

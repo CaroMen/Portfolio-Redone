@@ -11,6 +11,7 @@ align-items: center;
 @media screen and (max-width: 812px) {
     /* display: flex; */
     /* width: 50%; */
+    margin-top: 300px;
     overflow-x: hidden;
 }
 `;
@@ -48,7 +49,7 @@ border-radius: 5px;
 
 @media screen and (max-width: 812px) {
     display: flex;
-    width: 50%;
+    width: 100%;
 }
 `;
 
@@ -76,7 +77,8 @@ margin-left: -35px;
 
 @media screen and (max-width: 812px) {
     display: flex;
-    max-width: 100%;
+    max-width: 380px;
+    max-height: 350px;
     /* width: 600px; */
 }
 `;

@@ -157,7 +157,9 @@ box-shadow:
 
 @media screen and (max-width: 812px) {
     /* margin-top: 105px; */
-    /* margin-bottom: 50px; */
+    margin-bottom: 50px;
+    height: 400px;
+    min-width: 320px;
     /* max-height: 500px; */
     /* width: 500px; */
     /* display: hidden; */

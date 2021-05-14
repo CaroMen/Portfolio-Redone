@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar.js';
 
 import Header from './pagesdata/header/Header.js';
 import AboutMeInfo from './pagesdata/aboutme/AboutMe.js';
+import Projects from './pagesdata/projectsdata/ProjectsData.js';
 
 import GlobalStyle from './globalStyles';
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/'>
           <Header />
           <AboutMeInfo />
+          <Projects />
         </Route>
       </Switch>
       <Footer></Footer>

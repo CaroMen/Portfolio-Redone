@@ -1,13 +1,20 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
-import { } from './Projects.elements';
+import { ProjectsRow, ProjectsCol, ProjectTitle, ProjectsDiv, ImgContainer } from './Projects.elements';
+import HeaderImg from '../../images/caro.jpg';
 
-const AboutMe = () => {
+const AboutMe = ({ title }) => {
     return (
         <>
             <Container>
-
-
+                <ProjectsRow>
+                    <ProjectsCol>
+                        <ProjectsDiv>
+                            <ImgContainer src={HeaderImg} />
+                            <ProjectTitle>{title}</ProjectTitle>
+                        </ProjectsDiv>
+                    </ProjectsCol>
+                </ProjectsRow>
             </Container>
         </>
     )

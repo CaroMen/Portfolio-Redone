@@ -81,6 +81,11 @@ display: flex;
 align-items: left;
 margin-top: 30px;
 font-family: 'Lato', sans-serif;
+
+
+&:hover {
+    transform: translateY(-0.25em);
+}
 `
 export const ProjectTwoBtn = styled(Link)`
 color: #101522;
@@ -92,4 +97,8 @@ display: flex;
 align-items: left;
 margin-top: 30px;
 font-family: 'Lato', sans-serif;
+
+&:hover {
+    transform: translateY(-0.25em);
+}
 `

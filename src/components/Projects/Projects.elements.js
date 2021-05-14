@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const ProjectsRow = styled.div`
 display: flex;
@@ -69,4 +70,26 @@ line-height: 1.2rem;
 font-family: 'Lato', sans-serif;
 font-weight: 300;
 max-width: 90%;
+`
+export const ProjectOneBtn = styled(Link)`
+color: #101522;
+/* justify-self: flex-start; */
+cursor: pointer;
+text-decoration: none;
+font-size: 20px;
+display: flex;
+align-items: left;
+margin-top: 30px;
+font-family: 'Lato', sans-serif;
+`
+export const ProjectTwoBtn = styled(Link)`
+color: #101522;
+/* justify-self: flex-start; */
+cursor: pointer;
+text-decoration: none;
+font-size: 20px;
+display: flex;
+align-items: left;
+margin-top: 30px;
+font-family: 'Lato', sans-serif;
 `

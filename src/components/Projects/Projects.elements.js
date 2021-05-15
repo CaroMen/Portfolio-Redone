@@ -12,7 +12,8 @@ align-items: center;
     /* display: flex; */
     /* width: 50%; */
     margin-top: 300px;
-    overflow-x: hidden;
+    padding-bottom: 200px;
+    overflow: hidden;
 }
 `;
 

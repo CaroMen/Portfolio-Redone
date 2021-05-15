@@ -169,7 +169,7 @@ export const SkillsDiv = styled.div`
 display: flex;
 width: 540px;
 padding-top: 0px;
-padding-bottom: 60px;
+/* padding-bottom: 60px; */
 
 @media screen and (max-width: 812px) {
     display: flex;

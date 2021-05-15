@@ -53,6 +53,7 @@ line-height: 1.8em;
 font-family: 'Lato', sans-serif;
 font-weight: 300;
 column-count: 2;
+column-gap: 50px;
 
 @media screen and (max-width: 812px) {
     max-width: 300px;

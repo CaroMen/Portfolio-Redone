@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from '../../globalStyles';
 import HeaderImg from '../../images/caro.jpg';
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
-import { HeaderRow, HeaderColumn, TextWrapper, TopLine, Heading, ImgWrapper, Img, SocialIconLink, SocialIcons, SocialStarter, SubText } from './Header.elements';
+import { HeaderRow, HeaderColumn, TextWrapper, TopLine, Heading, ImgWrapper, Img, SocialIconLink, SocialIcons, SocialStarter, SubText, HeaderPicColumn } from './Header.elements';
 
 const Header = ({ headerImg, top, headline, subtext }) => {
     return (
@@ -29,11 +29,11 @@ const Header = ({ headerImg, top, headline, subtext }) => {
                         </SocialIcons>
                     </TextWrapper>
                 </HeaderColumn>
-                <HeaderColumn>
+                <HeaderPicColumn>
                     <ImgWrapper>
                         <Img src={HeaderImg}></Img>
                     </ImgWrapper>
-                </HeaderColumn>
+                </HeaderPicColumn>
             </HeaderRow>
         </Container>
     )

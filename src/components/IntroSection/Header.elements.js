@@ -24,6 +24,25 @@ flex-basis: 50%;
     flex-basis: 100%;
     display: flex;
     justify-content: center;
+    z-index: 9999;
+    /* margin-bottom: -250px; */
+}
+`
+
+export const HeaderPicColumn = styled.div`
+margin-bottom: -205px;
+padding-right: 15px;
+padding-left: 15px;
+flex: 1;
+max-width: 50%;
+flex-basis: 50%;
+
+@media screen and (max-width: 812px) {
+    max-width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
 }
 `
 
@@ -71,6 +90,12 @@ export const ImgWrapper = styled.div`
 max-width: 555px;
 display: flex;
 justify-content: flex-end;
+
+@media screen and (max-width: 812px) {
+    margin-top: 105px;
+    /* padding-top: 100px; */
+    /* margin-bottom: 50px; */
+}
 `;
 
 export const Img = styled.img`
@@ -88,7 +113,8 @@ box-shadow:
     0 22px 17px rgba(0, 0, 0, 0.052);
 
 @media screen and (max-width: 812px) {
-    margin-top: 105px;
+    /* margin-top: 105px; */
+    /* padding-top: 100px; */
     margin-bottom: 50px;
 }
 `

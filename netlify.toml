@@ -1,2 +1,7 @@
 [BUILD]
     command = "CI= npm run build"
+
+[[redirect]]
+    from ="/*'
+    to = "/index.html'
+    status = 200

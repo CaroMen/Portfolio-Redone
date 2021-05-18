@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
 import HomePic from '../../images/wh-home.png'
-import { WHTitle, WHDesc, WHType, WHStack, WHSOne, WHSTwo, WHSThree, WHSFour, WHTechInfo, TypeTitle, StackTitle, WHLiveLink, LinkTitle, SiteLink, WHCode, CodeTitle, CodeLink, HomePageWH, WHPic, WHPurpose, PurposeTitle, PurposeParagraph } from './WanderHunt.elements';
+import { WHTitle, WHDesc, WHType, WHStack, WHSOne, WHSTwo, WHSThree, WHSFour, WHTechInfo, TypeTitle, StackTitle, WHLiveLink, LinkTitle, SiteLink, WHCode, CodeTitle, CodeLink, HomePageWH, WHPic, WHPurpose, PurposeTitle, PurposeParagraph, WHCodeStack, StackCodeTitle, StackParagraph, StackDiv, StackWrapper, Stack } from './WanderHunt.elements';
 
 const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, purpose1 }) => {
     return (
@@ -45,6 +45,18 @@ const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, purp
                     <PurposeTitle>Project Purpose</PurposeTitle>
                     <PurposeParagraph>{purpose1}</PurposeParagraph>
                 </WHPurpose>
+                <WHCodeStack>
+                    <StackWrapper>
+                        <Stack>{stack1}</Stack>
+                        <Stack>{stack2}</Stack>
+                        <Stack>{stack3}</Stack>
+                        <Stack>{stack4}</Stack>
+                    </StackWrapper>
+                    <StackDiv>
+                        <StackCodeTitle>Project Purpose</StackCodeTitle>
+                        <StackParagraph>{purpose1}</StackParagraph>
+                    </StackDiv>
+                </WHCodeStack>
             </Container>
         </>
     )

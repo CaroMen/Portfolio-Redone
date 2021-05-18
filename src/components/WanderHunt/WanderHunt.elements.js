@@ -72,7 +72,9 @@ text-decoration: none;
 color: inherit;
 font-family: 'Lato', sans-serif;
 `
-export const WHCode = styled.div``
+export const WHCode = styled.div`
+
+`
 
 export const CodeTitle = styled.div`
 margin-bottom: 10px;
@@ -113,4 +115,55 @@ font-size: 17px;
 margin-top: 20px;
 line-height: 2em;
 width: 68%;
+`
+export const WHCodeStack = styled.div`
+margin-top: 50px;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+margin-bottom: 50px;
+`
+
+export const StackCodeTitle = styled.div`
+font-size: 30px;
+font-family: 'Montserrat', sans-serif;
+text-align: right;
+`
+
+export const StackParagraph = styled.div`
+font-family: 'Lato', sans-serif;
+font-size: 17px;
+margin-top: 20px;
+line-height: 2em;
+width: 100%;
+text-align: right;
+/* justify-content: flex-end; */
+`
+export const StackDiv = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+`
+
+export const StackWrapper = styled.div`
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+width: 50%;
+height: 100px;
+/* width: 300px; */
+margin-right: 100px;
+`
+
+export const Stack = styled.div`
+font-size: 17px;
+padding: 8px 15px 8px 15px;
+background-color: #f1f1f1;
+margin-right: 10px;
+border-radius: 5px;
+box-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.034),
+    0 6px 5px rgba(0, 0, 0, 0.048);
+margin-top: 15px;
+font-family: 'Open Sans', sans-serif;
 `

@@ -18,7 +18,7 @@ export const WHTechInfo = styled.div`
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
-margin-top: 50px;
+margin-top: 80px;
 `;
 
 export const WHType = styled.div`
@@ -75,10 +75,14 @@ export const SiteLink = styled.a`
 text-decoration: none;
 color: inherit;
 font-family: 'Lato', sans-serif;
-`
-export const WHCode = styled.div`
+color: #A57FCC;
+font-weight: 800;
 
+&:hover{
+    font-size: 17px;
+}
 `
+export const WHCode = styled.div``
 
 export const CodeTitle = styled.div`
 margin-bottom: 10px;
@@ -88,9 +92,15 @@ export const CodeLink = styled.a`
 text-decoration: none;
 color: inherit;
 font-family: 'Lato', sans-serif;
+color: #A57FCC;
+font-weight: 800;
+
+&:hover{
+    font-size: 17px;
+}
 `
 export const HomePageWH = styled.div`
-margin-top: 50px;
+margin-top: 80px;
 text-align: center;
 `
 
@@ -101,7 +111,7 @@ height: 60%;
 box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 `
 export const WHPurpose = styled.div`
-margin-top: 50px;
+margin-top: 80px;
 `
 
 export const PurposeTitle = styled.div`
@@ -121,7 +131,7 @@ margin-top: 50px;
 display: flex;
 flex-direction: row;
 justify-content: flex-end;
-margin-bottom: 50px;
+margin-bottom: 80px;
 `
 
 export const StackCodeTitle = styled.div`
@@ -149,14 +159,16 @@ export const StackWrapper = styled.div`
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
-width: 55%;
+width: 100%;
 height: 100px;
+margin-top: 55px;
+justify-content: center;
 /* width: 300px; */
-margin-right: 100px;
+/* margin-right: 20px; */
 `
 
 export const Stack = styled.div`
-font-size: 17px;
+font-size: 14px;
 padding: 8px 15px 8px 15px;
 background-color: #f1f1f1;
 margin-right: 10px;
@@ -172,7 +184,8 @@ font-family: 'Open Sans', sans-serif;
 }
 `
 export const WHLessons = styled.div`
-margin-bottom: 50px;
+margin-top: 80px;
+margin-bottom: 80px;
 `
 
 export const LessonsTitle = styled.div`
@@ -185,13 +198,13 @@ font-family: 'Lato', sans-serif;
 font-size: 17px;
 margin-top: 20px;
 line-height: 2em;
-width: 68%;
+width: 75%;
 `
 
 export const WHPics = styled.div`
 display: flex;
 flex-direction: row;
-margin-bottom: 50px;
+margin-top: 80px;
 `
 
 export const WHPicOne = styled.img`

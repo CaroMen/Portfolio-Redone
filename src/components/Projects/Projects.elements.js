@@ -9,8 +9,6 @@ flex-wrap: wrap;
 align-items: center;
 
 @media screen and (max-width: 812px) {
-    /* display: flex; */
-    /* width: 50%; */
     margin-top: 300px;
     padding-bottom: 200px;
     overflow: hidden;
@@ -51,6 +49,7 @@ border-radius: 5px;
 @media screen and (max-width: 812px) {
     display: flex;
     width: 100%;
+    margin-bottom: -40px;
 }
 `;
 
@@ -63,8 +62,9 @@ margin-left: -35px;
 @media screen and (max-width: 812px) {
     display: flex;
     /* padding-right: 20px; */
-    max-width: 380px;
-    max-height: 350px;
+    max-width: 370px;
+    max-height: 330px;
+    margin: 0 auto auto -25px;
 }
 `;
 
@@ -78,9 +78,12 @@ margin-left: -35px;
 
 @media screen and (max-width: 812px) {
     display: flex;
-    max-width: 380px;
-    max-height: 350px;
+    /* max-width: 380px; */
+    /* max-height: 350px; */
     /* width: 600px; */
+    max-width: 370px;
+    max-height: 330px;
+    margin: 0 auto auto -25px;
 }
 `;
 
@@ -90,6 +93,10 @@ line-height: 1.2rem;
 font-family: 'Lato', sans-serif;
 font-weight: 300;
 max-width: 90%;
+
+@media screen and (max-width: 812px) {
+    line-height: 1.6em;
+}
 `
 export const ProjectOneBtn = styled(Link)`
 color: #101522;

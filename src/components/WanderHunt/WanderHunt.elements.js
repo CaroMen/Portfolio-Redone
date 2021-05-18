@@ -12,6 +12,10 @@ font-size: 17px;
 margin-top: 20px;
 line-height: 2em;
 width: 68%;
+
+@media screen and (max-width: 812px) {
+    width: 100%;
+}
 `;
 
 export const WHTechInfo = styled.div`
@@ -19,15 +23,33 @@ display: flex;
 flex-direction: row;
 justify-content: flex-start;
 margin-top: 80px;
+
+@media screen and (max-width: 812px) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
 `;
 
 export const WHType = styled.div`
 font-family: 'Lato', sans-serif;
 margin-right: 50px;
+
+@media screen and (max-width: 812px) {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
 `
 
 export const WHStack = styled.div`
 margin-right: 50px;
+
+@media screen and (max-width: 812px) {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
 `
 
 export const WHSOne = styled.div`
@@ -56,19 +78,37 @@ font-family: 'Lato', sans-serif;
 export const TypeTitle = styled.div`
 font-family: 'Montserrat', sans-serif;
 margin-bottom: 10px;
+
+@media screen and (max-width: 812px) {
+    font-size: 18px;
+}
 `;
 
 export const StackTitle = styled.div`
 font-family: 'Montserrat', sans-serif;
 margin-bottom: 10px;
+
+@media screen and (max-width: 812px) {
+    font-size: 18px;
+}
 `;
 
 export const WHLiveLink = styled.div`
 margin-right: 50px;
+
+@media screen and (max-width: 812px) {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
 `
 
 export const LinkTitle = styled.div`
 margin-bottom: 10px;
+
+@media screen and (max-width: 812px) {
+    font-size: 18px;
+}
 `
 
 export const SiteLink = styled.a`
@@ -82,10 +122,20 @@ font-weight: 800;
     font-size: 17px;
 }
 `
-export const WHCode = styled.div``
+export const WHCode = styled.div`
+@media screen and (max-width: 812px) {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+`
 
 export const CodeTitle = styled.div`
 margin-bottom: 10px;
+
+@media screen and (max-width: 812px) {
+    font-size: 18px;
+}
 `
 
 export const CodeLink = styled.a`
@@ -109,6 +159,12 @@ border-radius: 10px;
 width: 80%;
 height: 60%;
 box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+@media screen and (max-width: 812px) {
+    width: 100%;
+    height: 150px;
+    margin-top: -50px;
+}
 `
 export const WHPurpose = styled.div`
 margin-top: 80px;
@@ -125,6 +181,11 @@ font-size: 17px;
 margin-top: 20px;
 line-height: 2em;
 width: 68%;
+
+@media screen and (max-width: 812px) {
+    width: 100%;
+    margin-bottom: 20px;
+}
 `
 export const WHCodeStack = styled.div`
 margin-top: 50px;
@@ -132,6 +193,11 @@ display: flex;
 flex-direction: row;
 justify-content: flex-end;
 margin-bottom: 80px;
+
+@media screen and (max-width: 812px) {
+    display: flex;
+    flex-direction: column-reverse;
+}
 `
 
 export const StackCodeTitle = styled.div`
@@ -153,6 +219,7 @@ export const StackDiv = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: flex-end;
+
 `
 
 export const StackWrapper = styled.div`
@@ -163,8 +230,10 @@ width: 100%;
 height: 100px;
 margin-top: 55px;
 justify-content: center;
-/* width: 300px; */
-/* margin-right: 20px; */
+
+@media screen and (max-width: 812px) {
+    margin-top: 20px;
+}
 `
 
 export const Stack = styled.div`
@@ -186,6 +255,7 @@ font-family: 'Open Sans', sans-serif;
 export const WHLessons = styled.div`
 margin-top: 80px;
 margin-bottom: 80px;
+
 `
 
 export const LessonsTitle = styled.div`
@@ -199,12 +269,21 @@ font-size: 17px;
 margin-top: 20px;
 line-height: 2em;
 width: 75%;
+
+@media screen and (max-width: 812px) {
+    width: 100%;
+}
 `
 
 export const WHPics = styled.div`
 display: flex;
 flex-direction: row;
 margin-top: 80px;
+
+@media screen and (max-width: 812px) {
+    display: flex;
+    flex-direction: column;
+}
 `
 
 export const WHPicOne = styled.img`
@@ -212,10 +291,20 @@ width: 50%;
 margin-right: 30px;
 border-radius: 10px;
 box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+
+@media screen and (max-width: 812px) {
+    width: 100%;
+    margin-bottom: 30px;
+}
 `;
 
 export const WHPicTwo = styled.img`
 width: 50%;
 border-radius: 10px;
 box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+@media screen and (max-width: 812px) {
+    width: 100%;
+}
 `

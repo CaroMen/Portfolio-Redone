@@ -5,7 +5,8 @@ export const wanderhunt = {
     stack1: 'JavaScript',
     stack2: 'Express',
     stack3: 'Heroku',
-    stack4: 'PostgreSQL'
+    stack4: 'PostgreSQL',
+    purpose1: 'Test'
     // title2: 'SpireCamp',
     // project2desc: 'A React application for people to rent out areas that promote mental health wellness.'
 };

@@ -98,3 +98,13 @@ box-shadow:
     0 12px 10px rgba(0, 0, 0, 0.06),
     0 22px 17px rgba(0, 0, 0, 0.052);
 `
+export const WHPurpose = styled.div`
+margin-top: 50px;
+`
+
+export const PurposeTitle = styled.div`
+font-size: 30px;
+font-family: 'Montserrat', sans-serif;
+`
+
+export const PurposeParagraph = styled.div``

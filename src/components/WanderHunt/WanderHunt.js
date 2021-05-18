@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
 import HomePic from '../../images/wh-home.png'
-import { WHTitle, WHDesc, WHType, WHStack, WHSOne, WHSTwo, WHSThree, WHSFour, WHTechInfo, TypeTitle, StackTitle, WHLiveLink, LinkTitle, SiteLink, WHCode, CodeTitle, CodeLink, HomePageWH, WHPic } from './WanderHunt.elements';
+import { WHTitle, WHDesc, WHType, WHStack, WHSOne, WHSTwo, WHSThree, WHSFour, WHTechInfo, TypeTitle, StackTitle, WHLiveLink, LinkTitle, SiteLink, WHCode, CodeTitle, CodeLink, HomePageWH, WHPic, WHPurpose, PurposeTitle, PurposeParagraph } from './WanderHunt.elements';
 
-const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4 }) => {
+const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, purpose1 }) => {
     return (
         <>
             <Container>
@@ -41,6 +41,10 @@ const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4 }) =>
                 <HomePageWH>
                     <WHPic src={HomePic} />
                 </HomePageWH>
+                <WHPurpose>
+                    <PurposeTitle>Project Purpose</PurposeTitle>
+                    <PurposeParagraph>{purpose1}</PurposeParagraph>
+                </WHPurpose>
             </Container>
         </>
     )

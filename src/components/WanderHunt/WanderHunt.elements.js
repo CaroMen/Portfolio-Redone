@@ -83,3 +83,18 @@ text-decoration: none;
 color: inherit;
 font-family: 'Lato', sans-serif;
 `
+export const HomePageWH = styled.div`
+margin-top: 50px;
+text-align: center;
+`
+
+export const WHPic = styled.img`
+border-radius: 10px;
+width: 80%;
+height: 60%;
+box-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.034),
+    0 6px 5px rgba(0, 0, 0, 0.048),
+    0 12px 10px rgba(0, 0, 0, 0.06),
+    0 22px 17px rgba(0, 0, 0, 0.052);
+`

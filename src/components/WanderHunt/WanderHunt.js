@@ -1,7 +1,9 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
 import HomePic from '../../images/wh-home.png'
-import { WHTitle, WHDesc, WHType, WHStack, WHSOne, WHSTwo, WHSThree, WHSFour, WHSFive, WHTechInfo, TypeTitle, StackTitle, WHLiveLink, LinkTitle, SiteLink, WHCode, CodeTitle, CodeLink, HomePageWH, WHPic, WHPurpose, PurposeTitle, PurposeParagraph, WHCodeStack, StackCodeTitle, StackParagraph, StackDiv, StackWrapper, Stack, WHLessons, LessonsTitle, LessonsParagraph } from './WanderHunt.elements';
+import PicOne from '../../images/WH-1.png'
+import PicTwo from '../../images/WH-2.png'
+import { WHTitle, WHDesc, WHType, WHStack, WHSOne, WHSTwo, WHSThree, WHSFour, WHSFive, WHTechInfo, TypeTitle, StackTitle, WHLiveLink, LinkTitle, SiteLink, WHCode, CodeTitle, CodeLink, HomePageWH, WHPic, WHPurpose, PurposeTitle, PurposeParagraph, WHCodeStack, StackCodeTitle, StackParagraph, StackDiv, StackWrapper, Stack, WHLessons, LessonsTitle, LessonsParagraph, WHPics, WHPicOne, WHPicTwo } from './WanderHunt.elements';
 
 const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, stack5, purpose1, stackchosen1, lessons1 }) => {
     return (
@@ -61,6 +63,10 @@ const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, stac
                         <StackParagraph>{stackchosen1}</StackParagraph>
                     </StackDiv>
                 </WHCodeStack>
+                <WHPics>
+                    <WHPicOne src={PicOne} />
+                    <WHPicTwo src={PicTwo} />
+                </WHPics>
                 <WHLessons>
                     <LessonsTitle>Lessons Learned</LessonsTitle>
                     <LessonsParagraph>{lessons1}</LessonsParagraph>

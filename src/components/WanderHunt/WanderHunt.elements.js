@@ -75,7 +75,7 @@ export const SiteLink = styled.a`
 text-decoration: none;
 color: inherit;
 font-family: 'Lato', sans-serif;
-color: #A57FCC;
+color: #73588E;
 font-weight: 800;
 
 &:hover{
@@ -92,7 +92,7 @@ export const CodeLink = styled.a`
 text-decoration: none;
 color: inherit;
 font-family: 'Lato', sans-serif;
-color: #A57FCC;
+color: #73588E;
 font-weight: 800;
 
 &:hover{

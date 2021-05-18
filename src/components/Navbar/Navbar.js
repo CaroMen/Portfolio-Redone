@@ -23,7 +23,7 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <Logo>
+                    <Logo to="/">
                         <NavIcon />
                         CARO.
                     </Logo>

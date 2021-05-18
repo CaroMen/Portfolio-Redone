@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
 import HomePic from '../../images/wh-home.png'
-import { WHTitle, WHDesc, WHType, WHStack, WHSOne, WHSTwo, WHSThree, WHSFour, WHTechInfo, TypeTitle, StackTitle, WHLiveLink, LinkTitle, SiteLink, WHCode, CodeTitle, CodeLink, HomePageWH, WHPic, WHPurpose, PurposeTitle, PurposeParagraph, WHCodeStack, StackCodeTitle, StackParagraph, StackDiv, StackWrapper, Stack } from './WanderHunt.elements';
+import { WHTitle, WHDesc, WHType, WHStack, WHSOne, WHSTwo, WHSThree, WHSFour, WHSFive, WHTechInfo, TypeTitle, StackTitle, WHLiveLink, LinkTitle, SiteLink, WHCode, CodeTitle, CodeLink, HomePageWH, WHPic, WHPurpose, PurposeTitle, PurposeParagraph, WHCodeStack, StackCodeTitle, StackParagraph, StackDiv, StackWrapper, Stack } from './WanderHunt.elements';
 
-const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, purpose1 }) => {
+const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, stack5, purpose1, stackchosen1 }) => {
     return (
         <>
             <Container>
@@ -28,6 +28,9 @@ const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, purp
                         <WHSFour>
                             {stack4}
                         </WHSFour>
+                        <WHSFive>
+                            {stack5}
+                        </WHSFive>
                     </WHStack>
                     <WHLiveLink>
                         <LinkTitle>Take Me To The Site</LinkTitle>
@@ -51,10 +54,11 @@ const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, purp
                         <Stack>{stack2}</Stack>
                         <Stack>{stack3}</Stack>
                         <Stack>{stack4}</Stack>
+                        <Stack>{stack5}</Stack>
                     </StackWrapper>
                     <StackDiv>
-                        <StackCodeTitle>Project Purpose</StackCodeTitle>
-                        <StackParagraph>{purpose1}</StackParagraph>
+                        <StackCodeTitle>Project Stack</StackCodeTitle>
+                        <StackParagraph>{stackchosen1}</StackParagraph>
                     </StackDiv>
                 </WHCodeStack>
             </Container>

@@ -47,6 +47,10 @@ padding-bottom: 5px;
 
 export const WHSFour = styled.div`
 font-family: 'Lato', sans-serif;
+padding-bottom: 5px;
+`
+export const WHSFive = styled.div`
+font-family: 'Lato', sans-serif;
 `
 
 export const TypeTitle = styled.div`
@@ -137,8 +141,8 @@ margin-top: 20px;
 line-height: 2em;
 width: 100%;
 text-align: right;
-/* justify-content: flex-end; */
 `
+
 export const StackDiv = styled.div`
 display: flex;
 flex-direction: column;
@@ -166,4 +170,8 @@ box-shadow:
     0 6px 5px rgba(0, 0, 0, 0.048);
 margin-top: 15px;
 font-family: 'Open Sans', sans-serif;
+
+&:hover {
+    background-color: #e9e9e9;
+}
 `

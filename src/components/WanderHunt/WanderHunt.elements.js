@@ -153,7 +153,7 @@ export const StackWrapper = styled.div`
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
-width: 50%;
+width: 55%;
 height: 100px;
 /* width: 300px; */
 margin-right: 100px;
@@ -174,4 +174,20 @@ font-family: 'Open Sans', sans-serif;
 &:hover {
     background-color: #e9e9e9;
 }
+`
+export const WHLessons = styled.div`
+margin-bottom: 50px;
+`
+
+export const LessonsTitle = styled.div`
+font-size: 30px;
+font-family: 'Montserrat', sans-serif;
+`
+
+export const LessonsParagraph = styled.div`
+font-family: 'Lato', sans-serif;
+font-size: 17px;
+margin-top: 20px;
+line-height: 2em;
+width: 68%;
 `

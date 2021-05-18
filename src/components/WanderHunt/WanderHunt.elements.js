@@ -107,4 +107,10 @@ font-size: 30px;
 font-family: 'Montserrat', sans-serif;
 `
 
-export const PurposeParagraph = styled.div``
+export const PurposeParagraph = styled.div`
+font-family: 'Lato', sans-serif;
+font-size: 17px;
+margin-top: 20px;
+line-height: 2em;
+width: 68%;
+`

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
-import { WHTitle, WHDesc, WHType, WHStack, WHSOne, WHSTwo, WHSThree, WHSFour, WHTechInfo, TypeTitle, StackTitle } from './WanderHunt.elements';
+import { WHTitle, WHDesc, WHType, WHStack, WHSOne, WHSTwo, WHSThree, WHSFour, WHTechInfo, TypeTitle, StackTitle, WHLiveLink, LinkTitle, SiteLink, WHCode, CodeTitle, CodeLink } from './WanderHunt.elements';
 
 const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4 }) => {
     return (
@@ -28,6 +28,14 @@ const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4 }) =>
                             {stack4}
                         </WHSFour>
                     </WHStack>
+                    <WHLiveLink>
+                        <LinkTitle>Take Me To The Site</LinkTitle>
+                        <SiteLink href={"https://wanderhunt.herokuapp.com/"}>Live site</SiteLink>
+                    </WHLiveLink>
+                    <WHCode>
+                        <CodeTitle>Show Me The Code</CodeTitle>
+                        <CodeLink href={"https://github.com/CaroMen/WanderHunt"}>Live site</CodeLink>
+                    </WHCode>
                 </WHTechInfo>
                 {/* <WHSCode></WHSCode> */}
             </Container>

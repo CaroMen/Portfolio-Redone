@@ -8,11 +8,11 @@ margin-top: 40px;
 
 export const WHDesc = styled.div`
 font-family: 'Lato', sans-serif;
+font-size: 17px;
 margin-top: 20px;
 line-height: 2em;
-width: 60%;
+width: 68%;
 `;
-
 
 export const WHTechInfo = styled.div`
 display: flex;
@@ -27,24 +27,26 @@ margin-right: 50px;
 `
 
 export const WHStack = styled.div`
+margin-right: 50px;
 `
 
 export const WHSOne = styled.div`
 font-family: 'Lato', sans-serif;
-
+padding-bottom: 5px;
 `
 
 export const WHSTwo = styled.div`
 font-family: 'Lato', sans-serif;
+padding-bottom: 5px;
 `
 
 export const WHSThree = styled.div`
 font-family: 'Lato', sans-serif;
+padding-bottom: 5px;
 `
 
 export const WHSFour = styled.div`
 font-family: 'Lato', sans-serif;
-
 `
 
 export const TypeTitle = styled.div`
@@ -56,3 +58,28 @@ export const StackTitle = styled.div`
 font-family: 'Montserrat', sans-serif;
 margin-bottom: 10px;
 `;
+
+export const WHLiveLink = styled.div`
+margin-right: 50px;
+`
+
+export const LinkTitle = styled.div`
+margin-bottom: 10px;
+`
+
+export const SiteLink = styled.a`
+text-decoration: none;
+color: inherit;
+font-family: 'Lato', sans-serif;
+`
+export const WHCode = styled.div``
+
+export const CodeTitle = styled.div`
+margin-bottom: 10px;
+`
+
+export const CodeLink = styled.a`
+text-decoration: none;
+color: inherit;
+font-family: 'Lato', sans-serif;
+`

@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container } from '../../globalStyles';
 import HeaderImg from '../../images/caro.jpg';
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { HeaderRow, HeaderColumn, TextWrapper, TopLine, Heading, ImgWrapper, Img, SocialIconLink, SocialIcons, SocialStarter, SubText, HeaderPicColumn } from './Header.elements';
 
 const Header = ({ headerImg, top, headline, subtext }) => {
+
+    useEffect(() => {
+        window.scroll(0, 0)
+    })
+
     return (
         <Container>
             <HeaderRow>

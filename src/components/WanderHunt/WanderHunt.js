@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container } from '../../globalStyles';
 import HomePic from '../../images/wh-home.png'
 import PicOne from '../../images/WH-1.png'
@@ -6,6 +6,11 @@ import PicTwo from '../../images/WH-2.png'
 import { WHTitle, WHDesc, WHType, WHStack, WHSOne, WHSTwo, WHSThree, WHSFour, WHSFive, WHTechInfo, TypeTitle, StackTitle, WHLiveLink, LinkTitle, SiteLink, WHCode, CodeTitle, CodeLink, HomePageWH, WHPic, WHPurpose, PurposeTitle, PurposeParagraph, WHCodeStack, StackCodeTitle, StackParagraph, StackDiv, StackWrapper, Stack, WHLessons, LessonsTitle, LessonsParagraph, WHPics, WHPicOne, WHPicTwo } from './WanderHunt.elements';
 
 const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, stack5, purpose1, stackchosen1, lessons1 }) => {
+
+    useEffect(() => {
+        window.scroll(0, 0)
+    })
+
     return (
         <>
             <Container>

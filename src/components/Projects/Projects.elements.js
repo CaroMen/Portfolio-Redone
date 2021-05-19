@@ -37,6 +37,10 @@ justify-content: space-between;
 export const ProjectTitle = styled.div`
 font-size: 35px;
 font-family: 'Montserrat', sans-serif;
+
+@media screen and (max-width: 812px) {
+    margin-left: 20px;
+}
 `
 export const ProjectsDiv = styled.div`
 display: flex;
@@ -47,9 +51,8 @@ border-radius: 5px;
 
 
 @media screen and (max-width: 812px) {
-    display: flex;
-    width: 100%;
     margin-bottom: -40px;
+    margin-left: -10px;
 }
 `;
 
@@ -62,9 +65,14 @@ margin-left: -35px;
 @media screen and (max-width: 812px) {
     display: flex;
     /* padding-right: 20px; */
-    max-width: 370px;
-    max-height: 330px;
-    margin: 0 auto auto -25px;
+    /* max-width: 370px; */
+    /* max-width: 100%; */
+    width: 100%;
+    height: 100%;
+    /* max-height: 330px; */
+    margin: 0 auto;
+    /* justify-content: center; */
+    /* margin: 0 auto auto -25px; */
 }
 `;
 
@@ -77,13 +85,14 @@ margin-left: -35px;
 
 
 @media screen and (max-width: 812px) {
-    display: flex;
+    /* display: flex; */
     /* max-width: 380px; */
     /* max-height: 350px; */
     /* width: 600px; */
-    max-width: 370px;
-    max-height: 330px;
-    margin: 0 auto auto -25px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /* margin: 0 auto auto -25px; */
 }
 `;
 
@@ -96,6 +105,7 @@ max-width: 90%;
 
 @media screen and (max-width: 812px) {
     line-height: 1.6em;
+    margin-left: 20px;
 }
 `
 export const ProjectOneBtn = styled(Link)`
@@ -113,6 +123,10 @@ font-family: 'Lato', sans-serif;
 &:hover {
     transform: translateY(-0.25em);
 }
+
+@media screen and (max-width: 812px) {
+    margin-left: 20px;
+}
 `
 export const ProjectTwoBtn = styled(Link)`
 color: #101522;
@@ -127,5 +141,9 @@ font-family: 'Lato', sans-serif;
 
 &:hover {
     transform: translateY(-0.25em);
+}
+
+@media screen and (max-width: 812px) {
+    margin-left: 20px;
 }
 `

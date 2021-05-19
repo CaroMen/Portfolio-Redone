@@ -53,6 +53,7 @@ text-align: center;
     opacity: 1;
     transition: all 0.5s ease;
     background: #fff;
+    z-index: 999;
 }
 `;
 

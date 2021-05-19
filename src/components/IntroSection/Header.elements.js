@@ -24,7 +24,7 @@ flex-basis: 50%;
     flex-basis: 100%;
     display: flex;
     justify-content: center;
-    z-index: 9999;
+    z-index: 2;
     /* margin-bottom: -250px; */
 }
 `

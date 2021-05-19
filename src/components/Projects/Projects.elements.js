@@ -70,7 +70,7 @@ margin-left: -35px;
     width: 100%;
     height: 100%;
     /* max-height: 330px; */
-    margin: 0 auto;
+    margin: 0 8px auto;
     /* justify-content: center; */
     /* margin: 0 auto auto -25px; */
 }
@@ -91,7 +91,7 @@ margin-left: -35px;
     /* width: 600px; */
     width: 100%;
     height: 100%;
-    margin: 0 auto;
+    margin: 0 8px auto;
     /* margin: 0 auto auto -25px; */
 }
 `;

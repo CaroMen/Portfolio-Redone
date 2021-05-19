@@ -47,7 +47,6 @@ display: flex;
 flex-direction: column;
 align-items: left;
 padding-bottom: 80px;
-border-radius: 5px;
 
 
 @media screen and (max-width: 812px) {
@@ -82,7 +81,7 @@ height: 458px;
 margin-top: -3px;
 margin-bottom: -20px;
 margin-left: -35px;
-
+/* border-radius: 50px; */
 
 @media screen and (max-width: 812px) {
     /* display: flex; */

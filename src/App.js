@@ -8,6 +8,7 @@ import Header from './pagesdata/header/Header.js';
 import AboutMeInfo from './pagesdata/aboutme/AboutMe.js';
 import Projects from './pagesdata/projectsdata/ProjectsData.js';
 import WanderHunt from './pagesdata/wanderhunt/ProjectData.js';
+import SpireCamp from './pagesdata/spirecamp/ProjectData.js';
 
 import GlobalStyle from './globalStyles';
 
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path="/wanderhunt">
           <WanderHunt />
+        </Route>
+        <Route path="/spirecamp">
+          <SpireCamp />
         </Route>
       </Switch>
       {/* <Footer></Footer> */}

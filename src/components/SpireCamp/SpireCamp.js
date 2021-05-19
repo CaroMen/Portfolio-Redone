@@ -3,9 +3,9 @@ import { Container } from '../../globalStyles';
 import SpireCamp from '../../images/spirecamp-1.png'
 import PicOne from '../../images/sp-1.png'
 import PicTwo from '../../images/sp-2.png'
-import { SPTitle, SPDesc, SPType, SPStack, SPSOne, SPSTwo, SPSThree, SPSFour, SPSFive, SPTechInfo, SPTypeTitle, SPStackTitle, SPLiveLink, SPLinkTitle, SPSiteLink, SPCode, SPCodeTitle, SPCodeLink, HomePageSP, SPPic, SPPurpose, SPPurposeTitle, SPPurposeParagraph, SPCodeStack, SPStackCodeTitle, SPStackParagraph, SPStackDiv, SPStackWrapper, Stack, SPLessons, SPLessonsTitle, SPLessonsParagraph, SPPics, SPPicOne, SPPicTwo } from './SpireCamp.elements';
+import { SPTitle, SPDesc, SPType, SPStack, SPSOne, SPSTwo, SPSThree, SPSFour, SPSFive, SPTechInfo, SPTypeTitle, SPStackTitle, SPLiveLink, SPLinkTitle, SPSiteLink, SPCode, SPCodeTitle, SPCodeLink, HomePageSP, SPPic, SPPurpose, SPPurposeTitle, SPPurposeParagraph, SPCodeStack, SPStackCodeTitle, SPStackParagraph, SPStackDiv, SPStackWrapper, Stack, SPLessons, SPLessonsTitle, SPLessonsParagraph, SPPics, SPPicOne, SPPicTwo, SPSSix, SPSSeven, SPSEight } from './SpireCamp.elements';
 
-const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, stack5, purpose1, stackchosen1, lessons1 }) => {
+const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, stack5, stack6, stack7, stack8, purpose1, stackchosen1, lessons1 }) => {
 
     useEffect(() => {
         window.scroll(0, 0)
@@ -38,14 +38,23 @@ const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, stac
                         <SPSFive>
                             {stack5}
                         </SPSFive>
+                        <SPSSix>
+                            {stack6}
+                        </SPSSix>
+                        <SPSSeven>
+                            {stack7}
+                        </SPSSeven>
+                        <SPSEight>
+                            {stack8}
+                        </SPSEight>
                     </SPStack>
                     <SPLiveLink>
                         <SPLinkTitle>Take Me To The Site</SPLinkTitle>
-                        <SPSiteLink href={"https://wanderhunt.herokuapp.com/"}>Live Site</SPSiteLink>
+                        <SPSiteLink href={"https://spirecamp.herokuapp.com/"}>Live Site</SPSiteLink>
                     </SPLiveLink>
                     <SPCode>
                         <SPCodeTitle>Show Me The Code</SPCodeTitle>
-                        <SPCodeLink href={"https://github.com/CaroMen/WanderHunt"}>Repo</SPCodeLink>
+                        <SPCodeLink href={"https://github.com/CaroMen/SpireCamp"}>Repo</SPCodeLink>
                     </SPCode>
                 </SPTechInfo>
                 <HomePageSP>
@@ -62,6 +71,9 @@ const WanderHunt = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, stac
                         <Stack>{stack3}</Stack>
                         <Stack>{stack4}</Stack>
                         <Stack>{stack5}</Stack>
+                        <Stack>{stack6}</Stack>
+                        <Stack>{stack7}</Stack>
+                        <Stack>{stack8}</Stack>
                     </SPStackWrapper>
                     <SPStackDiv>
                         <SPStackCodeTitle>Project Stack</SPStackCodeTitle>

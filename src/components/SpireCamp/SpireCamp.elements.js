@@ -73,6 +73,21 @@ padding-bottom: 5px;
 `
 export const SPSFive = styled.div`
 font-family: 'Lato', sans-serif;
+padding-bottom: 5px;
+`
+
+export const SPSSix = styled.div`
+font-family: 'Lato', sans-serif;
+padding-bottom: 5px;
+`
+
+export const SPSSeven = styled.div`
+font-family: 'Lato', sans-serif;
+padding-bottom: 5px;
+`
+
+export const SPSEight = styled.div`
+font-family: 'Lato', sans-serif;
 `
 
 export const SPTypeTitle = styled.div`

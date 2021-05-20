@@ -1,14 +1,18 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
-import { ProjectsRow, ProjectsCol, ProjectTitle, ProjectsDiv, ImgContainerOne, ImgContainerTwo, ProjectDesc, ProjectOneBtn, ProjectTwoBtn } from './Projects.elements';
+import { ProjectsRow, ProjectsCol, ProjectTitle, ProjectsDiv, ImgContainerOne, ImgContainerTwo, ProjectDesc, ProjectOneBtn, ProjectTwoBtn, ProjectsIntroTitle, ProjectsIntroDesc, ProjectsIntro } from './Projects.elements';
 import WanderHunt from '../../images/wanderhunt.png';
 import SpireCamp from '../../images/spirecamp.png';
 
-const AboutMe = ({ title1, project1desc, title2, project2desc }) => {
+const AboutMe = ({ title1, project1desc, title2, project2desc, projects, projectsdesc }) => {
     return (
         <>
             <Container>
                 <ProjectsRow>
+                    <ProjectsIntro>
+                        <ProjectsIntroTitle>{projects}</ProjectsIntroTitle>
+                        <ProjectsIntroDesc>{projectsdesc}</ProjectsIntroDesc>
+                    </ProjectsIntro>
                     <ProjectsCol>
                         <ProjectsDiv>
                             <ImgContainerOne src={WanderHunt} />

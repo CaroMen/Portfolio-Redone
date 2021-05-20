@@ -29,7 +29,7 @@ function App() {
           <SpireCamp />
         </Route>
       </Switch>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
       <GlobalStyle></GlobalStyle>
     </Router>
   );

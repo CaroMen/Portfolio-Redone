@@ -12,6 +12,7 @@ background-color: #F5F5F5;
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-top: -5px;
 }
 `;
 

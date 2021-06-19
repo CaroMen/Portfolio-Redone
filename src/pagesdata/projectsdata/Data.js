@@ -4,5 +4,6 @@ export const projectOne = {
     title1: 'Wander Hunt',
     project1desc: 'A travel hunt application that lets users promote outdoor places they\'ve visited.',
     title2: 'SpireCamp',
-    project2desc: 'A React application for people to rent out areas that promote mental health wellness.'
+    project2desc: 'A React application for people to rent out areas that promote mental health wellness.',
+    projects3desc: 'A Python/React dashboard dedicated to help people understand their strengths and weaknesses during their data structures and algorithms studying.'
 };

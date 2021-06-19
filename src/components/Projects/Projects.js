@@ -1,10 +1,11 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
-import { ProjectsRow, ProjectsCol, ProjectTitle, ProjectsDiv, ImgContainerOne, ImgContainerTwo, ProjectDesc, ProjectOneBtn, ProjectTwoBtn, ProjectsIntroTitle, ProjectsIntroDesc, ProjectsIntro } from './Projects.elements';
+import { ProjectsRow, ProjectsCol, ProjectTitle, ProjectsDiv, ImgContainerOne, ImgContainerTwo, ProjectDesc, ProjectOneBtn, ProjectTwoBtn, ProjectsIntroTitle, ProjectsIntroDesc, ProjectsIntro, ProjectsDivLarge, ImgContainerThree, ProjectsThreeBtn } from './Projects.elements';
 import WanderHunt from '../../images/wanderhunt.png';
 import SpireCamp from '../../images/spirecamp.png';
+import AlgoNetwork from "../../images/algonetwork.png"
 
-const AboutMe = ({ title1, project1desc, title2, project2desc, projects, projectsdesc }) => {
+const AboutMe = ({ title1, project1desc, title2, project2desc, projects, projectsdesc, projects3desc }) => {
     return (
         <>
             <Container>
@@ -27,6 +28,12 @@ const AboutMe = ({ title1, project1desc, title2, project2desc, projects, project
                             <ProjectTwoBtn to="/spirecamp">View Project ➡</ProjectTwoBtn>
                         </ProjectsDiv>
                     </ProjectsCol>
+                    <ProjectsDivLarge>
+                        <ImgContainerThree src={AlgoNetwork} />
+                        <ProjectTitle></ProjectTitle>
+                        <ProjectDesc>{projects3desc}</ProjectDesc>
+                        <ProjectsThreeBtn></ProjectsThreeBtn>
+                    </ProjectsDivLarge>
                 </ProjectsRow>
             </Container>
         </>

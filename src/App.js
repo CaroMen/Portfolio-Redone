@@ -10,7 +10,9 @@ import Projects from './pagesdata/projectsdata/ProjectsData.js';
 import WanderHunt from './pagesdata/wanderhunt/ProjectData.js';
 import SpireCamp from './pagesdata/spirecamp/ProjectData.js';
 
+
 import GlobalStyle from './globalStyles';
+import AlgoNetwork from './pagesdata/algonetwork/ProjectData.js';
 
 function App() {
   return (
@@ -27,6 +29,12 @@ function App() {
         </Route>
         <Route path="/spirecamp">
           <SpireCamp />
+        </Route>
+        <Route path="/spirecamp">
+          <SpireCamp />
+        </Route>
+        <Route path="/algonetwork">
+          <AlgoNetwork />
         </Route>
       </Switch>
       <Footer></Footer>

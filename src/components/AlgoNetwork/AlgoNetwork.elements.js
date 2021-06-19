@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-export const WHTitle = styled.div`
+export const ANTitle = styled.div`
 font-size: 30px;
 font-family: 'Montserrat', sans-serif;
 margin-top: 40px;
 `;
 
-export const WHDesc = styled.div`
+export const ANDesc = styled.div`
 font-family: 'Lato', sans-serif;
 font-size: 17px;
 margin-top: 20px;
@@ -18,7 +18,7 @@ width: 68%;
 }
 `;
 
-export const WHTechInfo = styled.div`
+export const ANTechInfo = styled.div`
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
@@ -31,7 +31,7 @@ margin-top: 80px;
 }
 `;
 
-export const WHType = styled.div`
+export const ANType = styled.div`
 font-family: 'Lato', sans-serif;
 margin-right: 50px;
 
@@ -42,7 +42,7 @@ margin-right: 50px;
 }
 `
 
-export const WHStack = styled.div`
+export const ANStack = styled.div`
 margin-right: 50px;
 
 @media screen and (max-width: 812px) {
@@ -52,26 +52,26 @@ margin-right: 50px;
 }
 `
 
-export const WHSOne = styled.div`
+export const ANOne = styled.div`
 font-family: 'Lato', sans-serif;
 padding-bottom: 5px;
 `
 
-export const WHSTwo = styled.div`
+export const ANTwo = styled.div`
 font-family: 'Lato', sans-serif;
 padding-bottom: 5px;
 `
 
-export const WHSThree = styled.div`
+export const ANThree = styled.div`
 font-family: 'Lato', sans-serif;
 padding-bottom: 5px;
 `
 
-export const WHSFour = styled.div`
+export const ANFour = styled.div`
 font-family: 'Lato', sans-serif;
 padding-bottom: 5px;
 `
-export const WHSFive = styled.div`
+export const ANFive = styled.div`
 font-family: 'Lato', sans-serif;
 `
 
@@ -93,7 +93,7 @@ margin-bottom: 10px;
 }
 `;
 
-export const WHLiveLink = styled.div`
+export const ANLiveLink = styled.div`
 margin-right: 50px;
 
 @media screen and (max-width: 812px) {
@@ -122,7 +122,7 @@ font-weight: 800;
     font-size: 17px;
 }
 `
-export const WHCode = styled.div`
+export const ANCode = styled.div`
 @media screen and (max-width: 812px) {
     width: 100%;
     text-align: center;
@@ -149,24 +149,24 @@ font-weight: 800;
     font-size: 17px;
 }
 `
-export const HomePageWH = styled.div`
+export const HomePageAN = styled.div`
 margin-top: 80px;
 text-align: center;
 `
 
-export const WHPic = styled.img`
+export const ANPic = styled.img`
 border-radius: 10px;
-width: 80%;
-height: 60%;
+width: 60%;
+min-height: 100px;
 box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 
 @media screen and (max-width: 812px) {
     width: 100%;
-    height: 150px;
+    height: 250px;
     margin-top: -50px;
 }
 `
-export const WHPurpose = styled.div`
+export const ANPurpose = styled.div`
 margin-top: 80px;
 `
 
@@ -187,7 +187,7 @@ width: 68%;
     margin-bottom: 20px;
 }
 `
-export const WHCodeStack = styled.div`
+export const ANCodeStack = styled.div`
 margin-top: 50px;
 display: flex;
 flex-direction: row;
@@ -252,7 +252,7 @@ font-family: 'Open Sans', sans-serif;
     background-color: #e9e9e9;
 }
 `
-export const WHLessons = styled.div`
+export const ANLessons = styled.div`
 margin-top: 80px;
 margin-bottom: 80px;
 
@@ -275,7 +275,7 @@ width: 75%;
 }
 `
 
-export const WHPics = styled.div`
+export const ANPics = styled.div`
 display: flex;
 flex-direction: row;
 margin-top: 80px;
@@ -286,7 +286,7 @@ margin-top: 80px;
 }
 `
 
-export const WHPicOne = styled.img`
+export const ANPicOne = styled.img`
 width: 50%;
 margin-right: 30px;
 border-radius: 10px;
@@ -299,7 +299,7 @@ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 `;
 
-export const WHPicTwo = styled.img`
+export const ANPicTwo = styled.img`
 width: 50%;
 border-radius: 10px;
 box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);

@@ -32,7 +32,7 @@ const AboutMe = ({ title1, project1desc, title2, project2desc, projects, project
                         <ImgContainerThree src={AlgoNetwork} />
                         <ProjectTitle>{title3}</ProjectTitle>
                         <ProjectDesc>{projects3desc}</ProjectDesc>
-                        <ProjectThreeBtn>View Project ➡</ProjectThreeBtn>
+                        <ProjectThreeBtn to="/algonetwork">View Project ➡</ProjectThreeBtn>
                     </ProjectsDivLarge>
                 </ProjectsRow>
             </Container>

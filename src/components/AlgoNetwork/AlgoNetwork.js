@@ -40,11 +40,11 @@ const AlgoNetwork = ({ title1, desc1, type1, stack1, stack2, stack3, stack4, sta
                     </ANStack>
                     <ANLiveLink>
                         <LinkTitle>Take Me To The Site</LinkTitle>
-                        <SiteLink href={"https://wanderhunt.herokuapp.com/"}>Live Site</SiteLink>
+                        <SiteLink href={"http://thealgonetwork.herokuapp.com/"}>Live Site</SiteLink>
                     </ANLiveLink>
                     <ANCode>
                         <CodeTitle>Show Me The Code</CodeTitle>
-                        <CodeLink href={"https://github.com/CaroMen/WanderHunt"}>Repo</CodeLink>
+                        <CodeLink href={"https://github.com/CaroMen/TheAlgoNetwork"}>Repo</CodeLink>
                     </ANCode>
                 </ANTechInfo>
                 <HomePageAN>

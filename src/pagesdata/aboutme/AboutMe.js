@@ -5,7 +5,6 @@ import { aboutMeInfo } from './Data';
 const AboutMeInfo = () => {
     return (
         <>
-            {/* <InfoSection {...homeObjOne} /> */}
             <AboutMe {...aboutMeInfo} />
         </>
     )

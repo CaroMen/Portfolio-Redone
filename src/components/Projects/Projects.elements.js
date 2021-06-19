@@ -93,7 +93,10 @@ padding-bottom: 80px;
 export const ProjectsDivLarge = styled.div`
 display: flex;
 flex-direction: column;
-align-items: left;
+align-items: center;
+width: 100%;
+height: 100%;
+margin-top: 200px;
 padding-bottom: 80px;
 
 
@@ -144,8 +147,8 @@ margin-left: -35px;
 `;
 
 export const ImgContainerThree = styled.img`
-width: 600px;
-height: 458px;
+width: 1200px;
+height: 558px;
 margin-top: -3px;
 margin-bottom: -20px;
 margin-left: -35px;

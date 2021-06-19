@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from '../../globalStyles';
-import { ProjectsRow, ProjectsCol, ProjectTitle, ProjectsDiv, ImgContainerOne, ImgContainerTwo, ProjectDesc, ProjectOneBtn, ProjectTwoBtn, ProjectsIntroTitle, ProjectsIntroDesc, ProjectsIntro, ProjectsDivLarge, ImgContainerThree, ProjectsThreeBtn } from './Projects.elements';
+import { ProjectsRow, ProjectsCol, ProjectTitle, ProjectsDiv, ImgContainerOne, ImgContainerTwo, ProjectDesc, ProjectOneBtn, ProjectTwoBtn, ProjectsIntroTitle, ProjectsIntroDesc, ProjectsIntro, ProjectsDivLarge, ImgContainerThree, ProjectThreeBtn } from './Projects.elements';
 import WanderHunt from '../../images/wanderhunt.png';
 import SpireCamp from '../../images/spirecamp.png';
 import AlgoNetwork from "../../images/algonetwork.png"
@@ -32,7 +32,7 @@ const AboutMe = ({ title1, project1desc, title2, project2desc, projects, project
                         <ImgContainerThree src={AlgoNetwork} />
                         <ProjectTitle></ProjectTitle>
                         <ProjectDesc>{projects3desc}</ProjectDesc>
-                        <ProjectsThreeBtn></ProjectsThreeBtn>
+                        <ProjectThreeBtn></ProjectThreeBtn>
                     </ProjectsDivLarge>
                 </ProjectsRow>
             </Container>

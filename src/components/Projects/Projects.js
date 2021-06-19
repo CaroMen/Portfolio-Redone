@@ -5,7 +5,7 @@ import WanderHunt from '../../images/wanderhunt.png';
 import SpireCamp from '../../images/spirecamp.png';
 import AlgoNetwork from "../../images/algonetwork.png"
 
-const AboutMe = ({ title1, project1desc, title2, project2desc, projects, projectsdesc, projects3desc }) => {
+const AboutMe = ({ title1, project1desc, title2, project2desc, projects, projectsdesc, projects3desc, title3 }) => {
     return (
         <>
             <Container>
@@ -30,9 +30,9 @@ const AboutMe = ({ title1, project1desc, title2, project2desc, projects, project
                     </ProjectsCol>
                     <ProjectsDivLarge>
                         <ImgContainerThree src={AlgoNetwork} />
-                        <ProjectTitle></ProjectTitle>
+                        <ProjectTitle>{title3}</ProjectTitle>
                         <ProjectDesc>{projects3desc}</ProjectDesc>
-                        <ProjectThreeBtn></ProjectThreeBtn>
+                        <ProjectThreeBtn>View Project ➡</ProjectThreeBtn>
                     </ProjectsDivLarge>
                 </ProjectsRow>
             </Container>

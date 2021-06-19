@@ -97,7 +97,7 @@ align-items: center;
 width: 100%;
 height: 100%;
 margin-top: 200px;
-padding-bottom: 80px;
+/* padding-bottom: 10px; */
 
 
 @media screen and (max-width: 812px) {

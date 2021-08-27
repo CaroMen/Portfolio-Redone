@@ -37,7 +37,7 @@ const Navbar = () => {
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <TechGuide href='https://shrouded-prawn-19d.notion.site/DSAs-and-Trivia-a0f1aad01bbb4bc39d4c299f9ab06494'>
+                            <TechGuide href='https://shrouded-prawn-19d.notion.site/DSAs-and-Trivia-a0f1aad01bbb4bc39d4c299f9ab06494' target="_blank">
                                 Tech Interview Guide
                             </TechGuide>
                         </NavItem>

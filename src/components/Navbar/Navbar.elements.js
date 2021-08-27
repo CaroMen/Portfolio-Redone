@@ -96,6 +96,28 @@ font-family: 'Montserrat', sans-serif;
 }
 `;
 
+export const TechGuide = styled.a`
+color: #101522;
+display: flex;
+align-items: center;
+text-decoration: none;
+padding: 0.5rem 1rem;
+height: 100%;
+font-family: 'Montserrat', sans-serif;
+
+@media screen and (max-width: 960px) {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+
+    &:hover {
+        color: #CF9FFF;
+        transition: all 0.3s ease;
+    }
+}
+`;
+
 export const MobileIcon = styled.div`
 display: none;
 

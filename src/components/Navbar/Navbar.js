@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { Nav, NavbarContainer, Logo, NavIcon, NavMenu, NavItem, NavLinks, MobileIcon, NavItemBtn } from './Navbar.elements';
+import { Nav, NavbarContainer, Logo, NavIcon, NavMenu, NavItem, NavLinks, MobileIcon, NavItemBtn, TechGuide } from './Navbar.elements';
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -37,9 +37,9 @@ const Navbar = () => {
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/blog'>
-                                Blog
-                            </NavLinks>
+                            <TechGuide href='https://shrouded-prawn-19d.notion.site/DSAs-and-Trivia-a0f1aad01bbb4bc39d4c299f9ab06494'>
+                                Tech Interview Guide
+                            </TechGuide>
                         </NavItem>
                         <NavItemBtn>
                             {/* {btn ? (
